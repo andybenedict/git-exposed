@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>Keyframe</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/keyframe.js"></script>
+<script src="js/events.js"></script>
+
+<link rel="stylesheet" type="text/css" href="fonts/league-gothic/fonts.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/faces.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+
+</head>
+<body>
+
+<logo>
+	<img src="images/gitlogo.svg" />
+</logo>
+
+<slide class="background hidden"></slide>
+
+<slide id="slide1" class="hidden">
+	<content>
+		<h1>Advantages of Git</h1>
+		<p>Git is a really awesome bit of stuff.</p>
+	</content>
+</slide>
+
+<slide id="slide2" class="hidden">
+	<content>
+		<h1>Brief History of Version Control</h1>
+		<ul>
+			<li class="show1 hidden">Pre-history</li>
+			<ul>
+				<li class="show1 hidden">Source Code Control System (SCCS) - 1972</li>
+				<li class="show2 hidden">Revision Control System (RCS) - 1982</li>
+			</ul>
+			<li class="show3 hidden">Generation 1</li>
+			<ul>
+				<li class="show3 hidden">Concurrent Versioning System (CVS) - 1990</li>
+			</ul>
+			<li class="show4 hidden">Generation 2</li>
+			<ul>
+				<li class="show4 hidden">Apache Subversion (SVN) - 2000</li>
+			</ul>
+			<li class="show5 hidden">Generation 3</li>
+			<ul>
+				<li class="show5 hidden">Mercurial - 2005</li>
+				<li class="show6 hidden">Git - 2005</li>
+			</ul>
+		</ul>
+	</content>
+</slide>
+
+<slide id="slide3" class="hidden">
+	<content>
+		<h1>Brief History of Git</h1>
+		<ul>
+			<li class="show1 hidden">Released in 2005</li>
+			<li class="show2 hidden">Written by Linus Torvolds</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+			<li class="show3 hidden">&nbsp;</li>
+		</ul>
+	</content>
+</slide>
+
+<slide id="slide4" class="hidden">
+	<content>
+		<h1>Why People Find Git Confusing</h1>
+		<columns>
+			<column>
+				<ul>
+					<li class="show1 hidden">Directed Acyclic Graphs</li>
+					<li class="show2 hidden">Recursive Traversal</li>
+					<li class="show3 hidden">Accurate diagram needs 4 dimensions</li>
+					<li class="show4 hidden">LOTS of incorrect information floating around</li>
+					<li class="show5 hidden">Distributed Structure</li>
+				</ul>
+			</column>
+			<column>
+				<ul>
+					<li class="show6 hidden">Trying to understand git in context of earlier source-control systems</li>
+					<li class="show7 hidden">Contains multiple trees</li>
+					<li class="show8 hidden">Contains multiple environments</li>
+					<li class="show9 hidden">Values speed and efficiency over ease of use</li>
+					<li class="show10 hidden">Command line syntax seems inconsistent</li>
+				</ul>
+			</column>
+		</columns>
+	</content>
+</slide>
+
+<div class="workspace hidden">
+	<card class="deck"></card>
+        <tree class="hidden"></tree>
+	<placeholder class="ph1-1 position1-1"></placeholder>
+	<placeholder class="ph1-2 position1-2"></placeholder>
+	<placeholder class="ph1-3 position1-3"></placeholder>
+	<placeholder class="ph1-4 position1-4"></placeholder>
+	<placeholder class="ph1-5 position1-5"></placeholder>
+	<placeholder class="ph2-1 position2-1"></placeholder>
+	<placeholder class="ph2-2 position2-2"></placeholder>
+	<placeholder class="ph2-3 position2-3"></placeholder>
+	<placeholder class="ph2-4 position2-4"></placeholder>
+	<placeholder class="ph2-5 position2-5"></placeholder>
+	<placeholder class="ph3-1 position3-1"></placeholder>
+	<placeholder class="ph3-2 position3-2"></placeholder>
+	<placeholder class="ph3-3 position3-3"></placeholder>
+	<placeholder class="ph3-4 position3-4"></placeholder>
+	<placeholder class="ph3-5 position3-5"></placeholder>
+
+	<card class="s-a nopip offscreen"><div class="pip"></div></card>
+	<card class="s-2 nopip offscreen"></card>
+	<card class="s-3 nopip offscreen"></card>
+	<card class="s-4 nopip offscreen"></card>
+	<card class="s-5 nopip offscreen"></card>
+	<card class="s-6 nopip offscreen"></card>
+	<card class="s-7 nopip offscreen"></card>
+	<card class="s-8 nopip offscreen"></card>
+	<card class="s-9 nopip offscreen"></card>
+	<card class="s-10 nopip offscreen"></card>
+	<card class="s-j nopip offscreen"></card>
+	<card class="s-q nopip offscreen"></card>
+	<card class="s-k nopip offscreen"></card>
+	<card class="h-a nopip offscreen"></card>
+	<card class="h-2 nopip offscreen"></card>
+	<card class="h-3 nopip offscreen"></card>
+	<card class="h-4 nopip offscreen"></card>
+	<card class="h-5 nopip offscreen"></card>
+	<card class="h-6 nopip offscreen"></card>
+	<card class="h-7 nopip offscreen"></card>
+	<card class="h-8 nopip offscreen"></card>
+	<card class="h-9 nopip offscreen"></card>
+	<card class="h-10 nopip offscreen"></card>
+	<card class="h-j nopip offscreen"></card>
+	<card class="h-q nopip offscreen"></card>
+	<card class="h-k nopip offscreen"></card>
+	<card class="c-a nopip offscreen"></card>
+	<card class="c-2 nopip offscreen"></card>
+	<card class="c-3 nopip offscreen"></card>
+	<card class="c-4 nopip offscreen"></card>
+	<card class="c-5 nopip offscreen"></card>
+	<card class="c-6 nopip offscreen"></card>
+	<card class="c-7 nopip offscreen"></card>
+	<card class="c-8 nopip offscreen"></card>
+	<card class="c-9 nopip offscreen"></card>
+	<card class="c-10 nopip offscreen"></card>
+	<card class="c-j nopip offscreen"></card>
+	<card class="c-q nopip offscreen"></card>
+	<card class="c-k nopip offscreen"></card>
+	<card class="d-a nopip offscreen"></card>
+	<card class="d-2 nopip offscreen"></card>
+	<card class="d-3 nopip offscreen"></card>
+	<card class="d-4 nopip offscreen"></card>
+	<card class="d-5 nopip offscreen"></card>
+	<card class="d-6 nopip offscreen"></card>
+	<card class="d-7 nopip offscreen"></card>
+	<card class="d-8 nopip offscreen"></card>
+	<card class="d-9 nopip offscreen"></card>
+	<card class="d-10 nopip offscreen"></card>
+	<card class="d-j nopip offscreen"></card>
+	<card class="d-q nopip offscreen"></card>
+	<card class="d-k nopip offscreen"></card>
+        <card class="master nopip offscreen"><div class="pip"></div></card>
+	<card class="feature nopip offscreen"><div class="pip"></div></card>
+        <div class="line line1-1-to-1-2 hidden">
+            <svg width="100%" height="100%">
+                <line y2="12.5%" x2="18.5%" y1="12.5%" x1="21.5%"></line>
+            </svg>
+        </div>
+        <div class="line line1-2-to-1-3 hidden">
+            <svg width="100%" height="100%">            
+                <line y2="12.5%" x2="38.5%" y1="12.5%" x1="41.5%"></line>
+            </svg>
+        </div>
+        <div class="line line1-2-to-2-3 hidden">
+            <svg width="100%" height="100%">            
+                <line y2="12.5%" x2="38.5%" y1="37.5%" x1="41.5%"></line>
+            </svg>
+        </div>
+        <div class="line line2-3-to-2-4 hidden">
+            <svg width="100%" height="100%">            
+                <line y2="37.5%" x2="58.5%" y1="37.5%" x1="61.5%"></line>
+            </svg>
+        </div>
+        <div class="line line2-3-to-3-4 hidden">
+            <svg width="100%" height="100%">            
+                <line y2="37.5%" x2="58.5%" y1="62.5%" x1="61.5%"></line>
+            </svg>
+        </div>
+        <div class="line line2-4-to-1-5 hidden">
+            <svg width="100%" height="100%">            
+                <line y2="37.5%" x2="78.5%" y1="12.5%" x1="81.5%"></line>
+            </svg>
+        </div>
+        <div class="line line2-4-to-2-5 hidden">
+            <svg width="100%" height="100%">
+                <line y2="37.5%" x2="78.5%" y1="37.5%" x1="81.5%"></line>
+            </svg>
+        </div>
+        <div class="line line2-4-to-3-5 hidden">
+            <svg width="100%" height="100%">
+                <line y2="37.5%" x2="78.5%" y1="62.5%" x1="81.5%"></line>
+            </svg>
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+10-s.png
+2-c.png
+3-c.png
+3-s.png
+4-c.png
+4-s.png
+6-d.png
+7-d.png
+8-s.png
+a-c.png
+a-h.png
+a-s.png
+files.txt
+j-h.png
+k-s.png
+q-h.png
+q-s.png

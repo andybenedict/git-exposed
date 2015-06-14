@@ -1,0 +1,134 @@
+.nopip:before{
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.s-a  {background: rgba(0, 0, 0, 0) url("../images/cards/A-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-2  {background: rgba(0, 0, 0, 0) url("../images/cards/2-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-3  {background: rgba(0, 0, 0, 0) url("../images/cards/3-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-4  {background: rgba(0, 0, 0, 0) url("../images/cards/4-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-5  {background: rgba(0, 0, 0, 0) url("../images/cards/5-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-6  {background: rgba(0, 0, 0, 0) url("../images/cards/6-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-7  {background: rgba(0, 0, 0, 0) url("../images/cards/7-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-8  {background: rgba(0, 0, 0, 0) url("../images/cards/8-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-9  {background: rgba(0, 0, 0, 0) url("../images/cards/9-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-10{background: rgba(0, 0, 0, 0) url("../images/cards/10-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-j  {background: rgba(0, 0, 0, 0) url("../images/cards/J-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-q  {background: rgba(0, 0, 0, 0) url("../images/cards/Q-S.png") repeat scroll 0 0 / 100% 100%;}
+.s-k  {background: rgba(0, 0, 0, 0) url("../images/cards/K-S.png") repeat scroll 0 0 / 100% 100%;}
+.h-a  {background: rgba(0, 0, 0, 0) url("../images/cards/A-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-2  {background: rgba(0, 0, 0, 0) url("../images/cards/2-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-3  {background: rgba(0, 0, 0, 0) url("../images/cards/3-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-4  {background: rgba(0, 0, 0, 0) url("../images/cards/4-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-5  {background: rgba(0, 0, 0, 0) url("../images/cards/5-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-6  {background: rgba(0, 0, 0, 0) url("../images/cards/6-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-7  {background: rgba(0, 0, 0, 0) url("../images/cards/7-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-8  {background: rgba(0, 0, 0, 0) url("../images/cards/8-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-9  {background: rgba(0, 0, 0, 0) url("../images/cards/9-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-10{background: rgba(0, 0, 0, 0) url("../images/cards/10-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-j  {background: rgba(0, 0, 0, 0) url("../images/cards/J-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-q  {background: rgba(0, 0, 0, 0) url("../images/cards/Q-H.png") repeat scroll 0 0 / 100% 100%;}
+.h-k  {background: rgba(0, 0, 0, 0) url("../images/cards/K-H.png") repeat scroll 0 0 / 100% 100%;}
+.c-a  {background: rgba(0, 0, 0, 0) url("../images/cards/A-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-2  {background: rgba(0, 0, 0, 0) url("../images/cards/2-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-3  {background: rgba(0, 0, 0, 0) url("../images/cards/3-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-4  {background: rgba(0, 0, 0, 0) url("../images/cards/4-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-5  {background: rgba(0, 0, 0, 0) url("../images/cards/5-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-6  {background: rgba(0, 0, 0, 0) url("../images/cards/6-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-7  {background: rgba(0, 0, 0, 0) url("../images/cards/7-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-8  {background: rgba(0, 0, 0, 0) url("../images/cards/8-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-9  {background: rgba(0, 0, 0, 0) url("../images/cards/9-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-10{background: rgba(0, 0, 0, 0) url("../images/cards/10-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-j  {background: rgba(0, 0, 0, 0) url("../images/cards/J-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-q  {background: rgba(0, 0, 0, 0) url("../images/cards/Q-C.png") repeat scroll 0 0 / 100% 100%;}
+.c-k  {background: rgba(0, 0, 0, 0) url("../images/cards/K-C.png") repeat scroll 0 0 / 100% 100%;}
+.d-a  {background: rgba(0, 0, 0, 0) url("../images/cards/A-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-2  {background: rgba(0, 0, 0, 0) url("../images/cards/2-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-3  {background: rgba(0, 0, 0, 0) url("../images/cards/3-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-4  {background: rgba(0, 0, 0, 0) url("../images/cards/4-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-5  {background: rgba(0, 0, 0, 0) url("../images/cards/5-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-6  {background: rgba(0, 0, 0, 0) url("../images/cards/6-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-7  {background: rgba(0, 0, 0, 0) url("../images/cards/7-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-8  {background: rgba(0, 0, 0, 0) url("../images/cards/8-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-9  {background: rgba(0, 0, 0, 0) url("../images/cards/9-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-10{background: rgba(0, 0, 0, 0) url("../images/cards/10-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-j  {background: rgba(0, 0, 0, 0) url("../images/cards/J-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-q  {background: rgba(0, 0, 0, 0) url("../images/cards/Q-D.png") repeat scroll 0 0 / 100% 100%;}
+.d-k  {background: rgba(0, 0, 0, 0) url("../images/cards/K-D.png") repeat scroll 0 0 / 100% 100%;}
+.master {background: rgba(0, 0, 0, 0) url("../images/cards/master.png") repeat scroll 0 0 / 100% 100%;}
+.feature {background: rgba(0, 0, 0, 0) url("../images/cards/feature.png") repeat scroll 0 0 / 100% 100%;}
+.s-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.s-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/7-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/J-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/5-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.h-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.h-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/J-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.d-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.d-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/7-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.d-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.d-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-D-n.png") repeat scroll 0 0 / 100% 100%;}
+
+.pip-10-s {background: rgba(0, 0, 0, 0) url("../images/pips/10-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-3-c {background: rgba(0, 0, 0, 0) url("../images/pips/3-c.png") no-repeat scroll center center / 40% 50%;}
+.pip-3-s {background: rgba(0, 0, 0, 0) url("../images/pips/3-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-4-c {background: rgba(0, 0, 0, 0) url("../images/pips/4-c.png") no-repeat scroll center center / 40% 50%;}
+.pip-4-s {background: rgba(0, 0, 0, 0) url("../images/pips/4-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-6-d {background: rgba(0, 0, 0, 0) url("../images/pips/6-d.png") no-repeat scroll center center / 40% 50%;}
+.pip-7-d {background: rgba(0, 0, 0, 0) url("../images/pips/7-d.png") no-repeat scroll center center / 40% 50%;}
+.pip-8-s {background: rgba(0, 0, 0, 0) url("../images/pips/8-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-a-c {background: rgba(0, 0, 0, 0) url("../images/pips/a-c.png") no-repeat scroll center center / 40% 50%;}
+.pip-a-h {background: rgba(0, 0, 0, 0) url("../images/pips/a-h.png") no-repeat scroll center center / 40% 50%;}
+.pip-a-s {background: rgba(0, 0, 0, 0) url("../images/pips/a-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-2-c {background: rgba(0, 0, 0, 0) url("../images/pips/2-c.png") no-repeat scroll center center / 40% 50%;}
+.pip-j-h {background: rgba(0, 0, 0, 0) url("../images/pips/j-h.png") no-repeat scroll center center / 40% 50%;}
+.pip-k-s {background: rgba(0, 0, 0, 0) url("../images/pips/k-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-q-h {background: rgba(0, 0, 0, 0) url("../images/pips/q-h.png") no-repeat scroll center center / 40% 50%;}
+.pip-q-s {background: rgba(0, 0, 0, 0) url("../images/pips/q-s.png") no-repeat scroll center center / 40% 50%;}
+

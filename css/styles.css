@@ -1,0 +1,208 @@
+*{box-sizing: border-box;}
+
+body,html{
+        background: #222;
+        height: 100%;
+        overflow: hidden;
+        font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+}
+
+logo {
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+}
+
+logo::before {
+        content: " ";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+}
+
+logo img {
+        height: auto;
+        vertical-align: middle;
+        width: 30%;
+}
+
+column {
+        float: left;
+        margin: 0 5%;
+        width: 40%;
+}
+
+card{
+        transition: all .2s ease-in-out;
+        width: 16%;
+        height: auto;
+        padding-bottom: 12%;
+        left: 5%;
+        top: 70%;
+        position: absolute;
+        border-radius: 15px;
+        transform: rotate(60deg);
+}
+
+tree {
+    background: rgba(0, 0, 0, 0) url("../images/tree.png") no-repeat scroll 0 0 / auto 100%;
+    height: 50%;
+    left: 5%;
+    padding-right: 28%;
+    position: absolute;
+    top: 5%;
+    transition: all 0.4s ease-in-out 0s;
+    width: auto;
+}        
+
+line {
+    stroke: white;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+placeholder{
+        transition: all .2s ease-in-out;
+        width: 16%;
+        height: auto;
+        padding-bottom: 11.5%;
+        position: absolute;
+        border-radius: 15px;
+        border: 4px solid transparent;
+}
+
+.unchanged{transition: all .2s ease-in-out;border-color: green;}
+.changed{transition: all .2s ease-in-out;border-color: yellow;}
+.conflict{transition: all .2s ease-in-out;border-color: red;}
+
+slide {
+        height: 80%;
+        left: 10%;
+        position: absolute;
+        top: 10%;
+        transition: all 0.5s ease-in-out 0s;
+        width: 80%;
+        z-index: 1000;
+        text-align: center;
+        color: #eee;
+}
+
+slide.background {
+        background: #111 none repeat scroll 0 0;
+        border: 2px solid #555;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px #000;
+        transition: all 0.5s ease-in-out 0s;
+        z-index: 999;
+}
+
+slide:before{
+        content: " ";
+        height: 100%;
+        width: 0;
+        display: inline-block;
+        vertical-align: middle;
+}
+
+slide content {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 95%;
+}
+
+slide ul {
+        transition: all .5s ease-in-out;
+        text-align: left;
+}
+
+slide li {
+    transition: all .5s ease-in-out;
+    list-style: none;
+    margin: .25em 0;
+}
+
+ul ul li{
+    margin: 0;
+}
+
+.hidden{
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+.line {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pip { width: 100%; height: 100%; position: absolute;}
+
+.position1-1{transition: all .2s ease-in-out;left: 2%;top: 2%;transform: rotate(0deg);}
+.position1-2{transition: all .2s ease-in-out;left: 22%;top: 2%;transform: rotate(0deg);}
+.position1-3{transition: all .2s ease-in-out;left: 42%;top: 2%;transform: rotate(0deg);}
+.position1-4{transition: all .2s ease-in-out;left: 62%;top: 2%;transform: rotate(0deg);}
+.position1-5{transition: all .2s ease-in-out;left: 82%;top: 2%;transform: rotate(0deg);}
+.position2-1{transition: all .2s ease-in-out;left: 2%;top: 27%;transform: rotate(0deg);}
+.position2-2{transition: all .2s ease-in-out;left: 22%;top: 27%;transform: rotate(0deg);}
+.position2-3{transition: all .2s ease-in-out;left: 42%;top: 27%;transform: rotate(0deg);}
+.position2-4{transition: all .2s ease-in-out;left: 62%;top: 27%;transform: rotate(0deg);}
+.position2-5{transition: all .2s ease-in-out;left: 82%;top: 27%;transform: rotate(0deg);}
+.position3-1{transition: all .2s ease-in-out;left: 2%;top: 52%;transform: rotate(0deg);}
+.position3-2{transition: all .2s ease-in-out;left: 22%;top: 52%;transform: rotate(0deg);}
+.position3-3{transition: all .2s ease-in-out;left: 42%;top: 52%;transform: rotate(0deg);}
+.position3-4{transition: all .2s ease-in-out;left: 62%;top: 52%;transform: rotate(0deg);}
+.position3-5{transition: all .2s ease-in-out;left: 82%;top: 52%;transform: rotate(0deg);}
+.position4-3{transition: all .2s ease-in-out;left: 42%;top: 77%;transform: rotate(0deg);}
+.position4-4{transition: all .2s ease-in-out;left: 62%;top: 77%;transform: rotate(0deg);}
+.position4-5{transition: all .2s ease-in-out;left: 82%;top: 77%;transform: rotate(0deg);}
+
+
+.front-and-center{
+        transition: all .2s ease-in-out;
+        margin-top: -300px;
+        margin-left: -410px;
+        height: 600px;
+        width: 820px;
+        padding-bottom: 0;
+        top: 50%;
+        left:50%;
+        transform: rotate(0deg);
+        z-index: 110;
+}
+
+.center{
+        transition: all .2s ease-in-out;
+        top: 50%;
+        left:50%;
+        transform: rotate(0deg);
+        z-index: 110;
+}
+
+.front{
+        transition: all .2s ease-in-out;
+        transform: scale(3);
+        z-index: 110;
+}
+
+.offscreen{
+        transition: all .2s ease-in-out;
+        top: 101%;
+        left: 101%;
+        transform: rotate(0deg);
+        z-index: 1000;
+}
+
+.deck {
+        background: rgba(0, 0, 0, 0) url("../images/cards/CardBack.png") repeat scroll 0 0 / 100% 100%;
+        z-index: 100;
+        transform: rotate(60deg) scale(1.03);
+}
