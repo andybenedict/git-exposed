@@ -6,6 +6,8 @@ body,html{
         overflow: hidden;
         font-family: 'League Gothic', Arial, Helvetica, sans-serif;
         font-size: 1.5em;
+        margin: 0;
+        padding: 0;
 }
 
 logo {
@@ -205,4 +207,16 @@ ul ul li{
         background: rgba(0, 0, 0, 0) url("../images/cards/CardBack.png") repeat scroll 0 0 / 100% 100%;
         z-index: 100;
         transform: rotate(60deg) scale(1.03);
+}
+
+.klee {
+    background: #f9c none repeat scroll 0 0;
+}
+
+.hoban {
+    background: #69f none repeat scroll 0 0;
+}
+
+.zoey {
+    background: #6F9 none repeat scroll 0 0;
 }
