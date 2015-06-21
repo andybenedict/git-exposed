@@ -1,6 +1,7 @@
 *{box-sizing: border-box;}
 
 body,html{
+        transition: all .5s ease-in-out;    
         background: #222;
         height: 100%;
         overflow: hidden;
@@ -210,13 +211,16 @@ ul ul li{
 }
 
 .klee {
+    transition: all .5s ease-in-out;
     background: #f9c none repeat scroll 0 0;
 }
 
 .hoban {
+    transition: all .5s ease-in-out;    
     background: #69f none repeat scroll 0 0;
 }
 
 .zoey {
+    transition: all .5s ease-in-out;    
     background: #6F9 none repeat scroll 0 0;
 }
