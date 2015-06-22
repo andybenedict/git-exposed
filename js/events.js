@@ -203,13 +203,13 @@ states = [
         {"object":".d-j","time":25,"toggle":"position1-5"},
         {"object":".c-5","time":25,"toggle":"position2-5"},
         
-        {"object":".s-4","time":100,"toggle":"position1-1 position1-2"},
         {"object":".h-q","time":100,"toggle":"position1-1"},
+        {"object":".s-4","time":100,"toggle":"position1-1 position1-2"},
         {"object":".line1-1-to-1-2","time":100,"toggle":"hidden"},
         
 //        {"pause":""},
-        {"object":".s-4","time":0,"toggle":"hidden"},
         {"object":".h-q","time":0,"toggle":"hidden"},
+        {"object":".s-4","time":0,"toggle":"hidden"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
         {"object":".master","time":0,"toggle":"hidden"},
         {"object":"body","time":0,"toggle":"klee"},
@@ -220,14 +220,14 @@ states = [
         
         /* Klee requests the repo */
 //        {"pause":""},
-        {"object":".s-4","time":0,"toggle":"hidden"},
         {"object":".h-q","time":0,"toggle":"hidden"},
+        {"object":".s-4","time":0,"toggle":"hidden"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
         {"object":".master","time":0,"toggle":"hidden"},
         {"object":"body","time":0,"toggle":"klee"},
 
         /* Master resolves what needs to be transmitted */
-        {"pause":""},
+//        {"pause":""},
         {"object":".s-4","time":100,"toggle":"position1-2"},
         {"object":".c-8","time":100,"toggle":"position1-2"},
         {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
@@ -243,7 +243,7 @@ states = [
         {"object":".d-j","time":100,"toggle":"position1-5"},
         {"object":".c-5","time":100,"toggle":"position2-5"},       
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".s-4","time":100,"toggle":"position1-1"},
         {"object":".h-q","time":0,"toggle":"position1-1 position2-1"},
         {"object":".c-9","time":100,"toggle":"position1-2"},
@@ -253,7 +253,7 @@ states = [
         {"object":".d-5","time":100,"toggle":"position3-4"},
         {"object":".c-7","time":0,"toggle":"position3-4 position2-1"},
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".s-4","time":100,"toggle":"position1-1 position2-1"},
         {"object":".c-9","time":100,"toggle":"position1-2 position2-1"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -271,11 +271,11 @@ states = [
         {"object":".c-5","time":100,"toggle":"position2-5 position2-1"},
 
         /* transfer files */
-        {"pause":""},
+//        {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
         {"object":".master","time":0,"toggle":"hidden"},
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".d-q","time":100,"toggle":"position2-1"},
         {"object":".d-j","time":100,"toggle":"position2-1"},
         {"object":".d-5","time":100,"toggle":"position2-1"},
@@ -290,42 +290,119 @@ states = [
         {"object":".s-4","time":100,"toggle":"position2-1"},
 
         /* Create master branch */
-        {"pause":""},
+//        {"pause":""},
         {"object":".master","time":0,"toggle":"hidden"},
 
         /*
          * Introduce origin/master
          */
-        {"pause":""},
+//        {"pause":""},
         {"object":".s-a","time":0,"toggle":"nopip offscreen position4-4"},
         
-        {"pause":""},        
+//        {"pause":""},        
         {"object":".s-a .pip","time":0,"toggle":"pip-4-s"},
 
-        {"pause":""},
+//        {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
         {"object":".s-a","time":0,"toggle":"hidden"},
+
+        /*
+         * Create a branch
+         */
+
+        {"object":".h-q","time":100,"toggle":"position1-1"},
+        {"object":".s-4","time":100,"toggle":"position1-2"},
+        {"object":".line1-1-to-1-2","time":100,"toggle":"hidden"},
+
+        {"pause":""},
+        {"object":".feature","time":0,"toggle":"nopip offscreen position4-4"},
+        
+        {"pause":""},        
+        {"object":".feature .pip","time":0,"toggle":"pip-4-s"},
+
+        {"pause":""},        
+        {"object":".s-k","time":0,"toggle":"offscreen front center"},
+
+        {"pause":""},        
+        {"object":".s-k","time":0,"toggle":"nopip"},
+
+        {"pause":""},        
+        {"object":".s-k","time":0,"toggle":"front center position1-3"},
+        {"object":".line1-2-to-1-3","time":100,"toggle":"hidden"},
+
+        {"pause":""},        
+        {"object":".feature .pip","time":0,"toggle":"pip-k-s"},
+
+        {"pause":""},
+        {"object":".h-q","time":100,"toggle":"position1-1"},
+        {"object":".s-4","time":100,"toggle":"position1-2"},
+        {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
+        {"object":".s-k","time":100,"toggle":"position1-3"},
+        {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
+
+        {"object":".d-6","time":100,"toggle":"offscreen position1-1"},
+        {"object":".d-10","time":100,"toggle":"offscreen position1-2"},
+        {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
+        {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
+        {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
+        {"object":".d-2","time":100,"toggle":"position1-3"},
+        {"object":".s-2","time":100,"toggle":"offscreen position2-3"},
+        {"object":".line2-3-to-2-4","time":100,"toggle":"hidden"},
+        {"object":".line2-3-to-3-4","time":0,"toggle":"hidden"},       
+        {"object":".s-9","time":100,"toggle":"position2-4"},
+        {"object":".d-8","time":100,"toggle":"offscreen position3-4"},
+        {"object":".line2-4-to-1-5","time":100,"toggle":"hidden"},
+        {"object":".line2-4-to-2-5","time":0,"toggle":"hidden"},
+        {"object":".d-j","time":100,"toggle":"position1-5"},
+        {"object":".c-5","time":100,"toggle":"position2-5"},       
+
+        {"object":".ph3-4","time":300,"toggle":"changed"},
+        {"object":".ph2-3","time":300,"toggle":"changed"},
+        {"object":".ph1-2","time":300,"toggle":"changed"},
+        {"object":".ph1-1","time":300,"toggle":"changed"},
+
+        {"object":".d-8","time":100,"toggle":"nopip"},
+        {"object":".ph3-4","time":300,"toggle":"changed unchanged"},
+        {"object":".s-2","time":100,"toggle":"nopip"},
+        {"object":".ph2-3","time":300,"toggle":"changed unchanged"},
+        {"object":".d-10","time":100,"toggle":"nopip"},
+        {"object":".ph1-2","time":300,"toggle":"changed unchanged"},
+        {"object":".d-6","time":100,"toggle":"nopip"},
+        {"object":".ph1-1","time":300,"toggle":"changed unchanged"},
+        {"object":".feature .pip","time":0,"toggle":"pip-k-s pip-6-d"},
+
+        {"pause":""},
+        {"object":".ph3-4","time":0,"toggle":"unchanged"},
+        {"object":".ph2-3","time":0,"toggle":"unchanged"},
+        {"object":".ph1-2","time":0,"toggle":"unchanged"},
+        {"object":".ph1-1","time":0,"toggle":"unchanged"},
     
-/*	{"pause":""},
-        {"object":".h-q","time":0,"toggle":"front center position1-1"},
-        {"object":".ph1-1","time":200,"toggle":"unchanged"},
-        {"object":".c-8","time":0,"toggle":"position1-2"},
-        {"object":".ph1-2","time":200,"toggle":"unchanged"},
-        {"object":".d-2","time":0,"toggle":"position1-3"},
-        {"object":".ph1-3","time":200,"toggle":"unchanged"},
-        {"object":".h-6","time":0,"toggle":"position2-3"},
-        {"object":".ph2-3","time":200,"toggle":"unchanged"},
-        {"object":".s-9","time":0,"toggle":"position2-4"},
-        {"object":".ph2-4","time":200,"toggle":"unchanged"},
-        {"object":".c-7","time":0,"toggle":"position3-4"},
-        {"object":".ph3-4","time":200,"toggle":"unchanged"},
-        {"object":".d-j","time":0,"toggle":"position1-5"},
-        {"object":".ph1-5","time":200,"toggle":"unchanged"},
-        {"object":".c-5","time":0,"toggle":"position2-5"},
-        {"object":".ph2-5","time":200,"toggle":"unchanged"},
+        {"object":".d-6","time":100,"toggle":"position1-1"},
+        {"object":".d-10","time":100,"toggle":"position1-2"},
+        {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
+        {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
+        {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
+        {"object":".d-2","time":100,"toggle":"position1-3"},
+        {"object":".s-2","time":100,"toggle":"position2-3"},
+        {"object":".line2-3-to-2-4","time":100,"toggle":"hidden"},
+        {"object":".line2-3-to-3-4","time":0,"toggle":"hidden"},       
+        {"object":".s-9","time":100,"toggle":"position2-4"},
+        {"object":".d-8","time":100,"toggle":"position3-4"},
+        {"object":".line2-4-to-1-5","time":100,"toggle":"hidden"},
+        {"object":".line2-4-to-2-5","time":0,"toggle":"hidden"},
+        {"object":".d-j","time":100,"toggle":"position1-5"},
+        {"object":".c-5","time":100,"toggle":"position2-5"},       
+        
+        {"object":".h-q","time":100,"toggle":"position1-1"},
+        {"object":".s-4","time":100,"toggle":"position1-2"},
+        {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
+        {"object":".s-k","time":100,"toggle":"position1-3"},
+        {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
+        {"object":".d-6","time":100,"toggle":"position1-4"},
+        {"object":".line1-3-to-1-4","time":0,"toggle":"hidden"},
+
         {"pause":""},
-        {"object":".h-q","time":200,"toggle":"front center"},
-        {"pause":""},
-        {"object":".h-q","time":200,"toggle":"front center"}
-*/	{"pause":""}
+        {"object":".master .pip","time":0,"toggle":"pip-4-s pip-6-d"},
+    
+        {"pause":""}
 ]
