@@ -1,6 +1,7 @@
 index = -1;
 
 lock = false;
+timer = true;
 
 keyadvance = function(){
         if (!lock){
@@ -22,16 +23,28 @@ advance = function(){
         console.log(index);
         console.log(states[index]);
         if (index >= states.length || typeof states[index].pause != "undefined"){
-                if (index > states.length){
-                        index = states.length;
-                }
-                console.log('Unlocking');
+            if (index > states.length){
+                    index = states.length;
+            }
+            console.log('Unlocking');
             lock = false;
-                return;
+            return;
+        }else if (typeof states[index].timer != "undefined"){
+            timer = timer ? false : true;
+            console.log('Timer = ' + timer);
+            advance();
+            return;
         }
-        setTimeout(function(){$(states[index].object).toggleClass(states[index].toggle);
+        
+        if (timer){
+            setTimeout(function(){
+                $(states[index].object).toggleClass(states[index].toggle);
                 advance();
-        }, states[index].time);
+            }, states[index].time);
+        }else{
+            $(states[index].object).toggleClass(states[index].toggle);
+            advance();
+        }
 };
 
 reverse = function(){
@@ -41,12 +54,17 @@ reverse = function(){
         index--;
         console.log(index);
         if (index < 0 || typeof states[index].pause != "undefined"){
-                if (index < 0){
-                        index = -1;
-                }			
-                console.log('Unlocking');
+            if (index < 0){
+                    index = -1;
+            }			
+            console.log('Unlocking');
             lock = false;
-                return;
+            return;
+        }else if (typeof states[index].timer != "undefined"){
+            timer = timer ? false : true;
+            console.log('Timer = ' + timer);
+            reverse();
+            return;
         }
         $(states[index].object).toggleClass(states[index].toggle);
         reverse();
