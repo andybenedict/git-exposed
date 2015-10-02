@@ -432,7 +432,7 @@ states = [
         {"object":".feature","time":0,"toggle":"hidden"},
         {"object":".s-a","time":0,"toggle":"hidden"},
 
-        {"pause":""},        
+//        {"pause":""},        
         {"object":".s-10","time":300,"toggle":"offscreen front center"},
 
         {"object":".s-10","time":300,"toggle":"nopip"},
@@ -444,7 +444,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-4-s pip-10-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
     
-        {"pause":""},
+//        {"pause":""},
         {"object":".s-q","time":300,"toggle":"offscreen front center"},
 
         {"object":".s-q","time":300,"toggle":"nopip"},
@@ -456,7 +456,7 @@ states = [
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".h-q","time":100,"toggle":"position1-1"},
         {"object":".s-4","time":100,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -481,7 +481,7 @@ states = [
         {"object":".h-10","time":100,"toggle":"offscreen position1-5"},
         {"object":".c-5","time":100,"toggle":"position2-5"},       
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".ph1-5","time":300,"toggle":"changed"},
         {"object":".ph2-4","time":300,"toggle":"changed"},
         {"object":".ph2-3","time":300,"toggle":"changed"},
@@ -502,7 +502,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-q-s pip-a-c"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".ph1-5","time":0,"toggle":"unchanged"},
         {"object":".ph2-4","time":0,"toggle":"unchanged"},
         {"object":".ph2-3","time":0,"toggle":"unchanged"},
@@ -534,7 +534,7 @@ states = [
         {"object":".line1-3-to-1-4","time":0,"toggle":"hidden"},
         {"object":".line1-4-to-1-5","time":0,"toggle":"hidden"},
 
-        {"pause":""},
+//        {"pause":""},
         {"object":".s-k","time":100,"toggle":"position2-3"},
         {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
         {"object":".d-6","time":100,"toggle":"position2-4"},
