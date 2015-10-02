@@ -145,7 +145,9 @@ states = [
         //create register master
         {"object":".master","time":0,"toggle":"offscreen front center"},
 //        {"pause":""},
-        {"object":".master .pip","time":0,"toggle":"pip-q-h"},
+        {"object":".master .pip","time":0,"toggle":"hidden"},
+        {"object":".master .pip","time":500,"toggle":"pip-q-h"},
+        {"object":".master .pip","time":200,"toggle":"hidden"},
 //        {"pause":""},
         {"object":".master","time":0,"toggle":"front center position4-5"},
 //        {"pause":""},
@@ -185,7 +187,9 @@ states = [
         {"object":".ph1-1","time":0,"toggle":"unchanged"},        
         {"object":".ph1-2","time":0,"toggle":"unchanged"},
         {"object":".ph2-3","time":0,"toggle":"unchanged"},
-        {"object":".master .pip","time":0,"toggle":"pip-q-h pip-4-s"},
+        {"object":".master .pip","time":0,"toggle":"hidden"},
+        {"object":".master .pip","time":500,"toggle":"pip-q-h pip-4-s"},
+        {"object":".master .pip","time":200,"toggle":"hidden"},
 //        {"pause":""},
         
         {"object":".c-9","time":0,"toggle":"position1-2"},
@@ -300,7 +304,9 @@ states = [
         {"object":".s-a","time":0,"toggle":"nopip offscreen position4-4"},
         
 //        {"pause":""},        
-        {"object":".s-a .pip","time":0,"toggle":"pip-4-s"},
+        {"object":".s-a .pip","time":0,"toggle":"hidden"},
+        {"object":".s-a .pip","time":500,"toggle":"pip-4-s"},
+        {"object":".s-a .pip","time":200,"toggle":"hidden"},
 
 //        {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
@@ -318,7 +324,9 @@ states = [
         {"object":".feature","time":0,"toggle":"nopip offscreen position4-4"},
         
 //        {"pause":""},        
-        {"object":".feature .pip","time":0,"toggle":"pip-4-s"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-4-s"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
 
 //        {"pause":""},        
         {"object":".s-k","time":0,"toggle":"offscreen front center"},
@@ -331,7 +339,9 @@ states = [
         {"object":".line1-2-to-1-3","time":100,"toggle":"hidden"},
 
 //        {"pause":""},        
-        {"object":".feature .pip","time":0,"toggle":"pip-k-s"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-k-s"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
 
 //        {"pause":""},
         {"object":".h-q","time":100,"toggle":"position1-1"},
@@ -369,7 +379,9 @@ states = [
         {"object":".ph1-2","time":300,"toggle":"changed unchanged"},
         {"object":".d-6","time":100,"toggle":"nopip"},
         {"object":".ph1-1","time":300,"toggle":"changed unchanged"},
-        {"object":".feature .pip","time":0,"toggle":"pip-k-s pip-6-d"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-k-s pip-6-d"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
 
 //        {"pause":""},
         {"object":".ph3-4","time":0,"toggle":"unchanged"},
@@ -402,15 +414,21 @@ states = [
         {"object":".line1-3-to-1-4","time":0,"toggle":"hidden"},
 
 //        {"pause":""},
-        {"object":".master .pip","time":0,"toggle":"pip-4-s pip-6-d"},
+        {"object":".master .pip","time":0,"toggle":"hidden"},
+        {"object":".master .pip","time":500,"toggle":"pip-4-s pip-6-d"},
+        {"object":".master .pip","time":200,"toggle":"hidden"},
 
         {"object":".s-k","time":100,"toggle":"position1-3"},
         {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
         {"object":".d-6","time":100,"toggle":"position1-4"},
         {"object":".line1-3-to-1-4","time":0,"toggle":"hidden"},
         {"object":"body","time":200,"toggle":"klee"},
-        {"object":".master .pip","time":0,"toggle":"pip-4-s pip-6-d"},
+        {"object":".master .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".master .pip","time":500,"toggle":"pip-4-s pip-6-d"},
         {"object":".feature .pip","time":0,"toggle":"pip-6-d"},
+        {"object":".master .pip","time":200,"toggle":"hidden"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature","time":0,"toggle":"hidden"},
         {"object":".s-a","time":0,"toggle":"hidden"},
 
@@ -422,7 +440,9 @@ states = [
         {"object":".s-10","time":300,"toggle":"front center position1-3"},
         {"object":".line1-2-to-1-3","time":100,"toggle":"hidden"},
         {"object":".feature","time":300,"toggle":"hidden position4-4 position4-3"},
-        {"object":".feature .pip","time":300,"toggle":"pip-4-s pip-10-s"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-4-s pip-10-s"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
     
         {"pause":""},
         {"object":".s-q","time":300,"toggle":"offscreen front center"},
@@ -431,7 +451,9 @@ states = [
 
         {"object":".s-q","time":300,"toggle":"front center position1-4"},
         {"object":".line1-3-to-1-4","time":100,"toggle":"hidden"},
-        {"object":".feature .pip","time":300,"toggle":"pip-10-s pip-q-s"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-10-s pip-q-s"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
 
 
         {"pause":""},
@@ -476,7 +498,9 @@ states = [
         {"object":".ph1-2","time":300,"toggle":"changed unchanged"},
         {"object":".c-a","time":100,"toggle":"nopip"},
         {"object":".ph1-1","time":300,"toggle":"changed unchanged"},
-        {"object":".feature .pip","time":0,"toggle":"pip-q-s pip-a-c"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-q-s pip-a-c"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
 
         {"pause":""},
         {"object":".ph1-5","time":0,"toggle":"unchanged"},
