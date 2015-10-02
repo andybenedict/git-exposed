@@ -122,20 +122,20 @@ card:before{
 .d-q:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-D-n.png") repeat scroll 0 0 / 100% 100%;}
 .d-k:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-D-n.png") repeat scroll 0 0 / 100% 100%;}
 
-.pip-10-s {background: rgba(0, 0, 0, 0) url("../images/pips/10-s.png") no-repeat scroll center center / 40% 50%;}
-.pip-3-c {background: rgba(0, 0, 0, 0) url("../images/pips/3-c.png") no-repeat scroll center center / 40% 50%;}
-.pip-3-s {background: rgba(0, 0, 0, 0) url("../images/pips/3-s.png") no-repeat scroll center center / 40% 50%;}
-.pip-4-c {background: rgba(0, 0, 0, 0) url("../images/pips/4-c.png") no-repeat scroll center center / 40% 50%;}
-.pip-4-s {background: rgba(0, 0, 0, 0) url("../images/pips/4-s.png") no-repeat scroll center center / 40% 50%;}
-.pip-6-d {background: rgba(0, 0, 0, 0) url("../images/pips/6-d.png") no-repeat scroll center center / 40% 50%;}
-.pip-7-d {background: rgba(0, 0, 0, 0) url("../images/pips/7-d.png") no-repeat scroll center center / 40% 50%;}
-.pip-8-s {background: rgba(0, 0, 0, 0) url("../images/pips/8-s.png") no-repeat scroll center center / 40% 50%;}
-.pip-a-c {background: rgba(0, 0, 0, 0) url("../images/pips/a-c.png") no-repeat scroll center center / 40% 50%;}
-.pip-a-h {background: rgba(0, 0, 0, 0) url("../images/pips/a-h.png") no-repeat scroll center center / 40% 50%;}
-.pip-a-s {background: rgba(0, 0, 0, 0) url("../images/pips/a-s.png") no-repeat scroll center center / 40% 50%;}
-.pip-2-c {background: rgba(0, 0, 0, 0) url("../images/pips/2-c.png") no-repeat scroll center center / 40% 50%;}
-.pip-j-h {background: rgba(0, 0, 0, 0) url("../images/pips/j-h.png") no-repeat scroll center center / 40% 50%;}
-.pip-k-s {background: rgba(0, 0, 0, 0) url("../images/pips/k-s.png") no-repeat scroll center center / 40% 50%;}
-.pip-q-h {background: rgba(0, 0, 0, 0) url("../images/pips/q-h.png") no-repeat scroll center center / 40% 50%;}
-.pip-q-s {background: rgba(0, 0, 0, 0) url("../images/pips/q-s.png") no-repeat scroll center center / 40% 50%;}
+.pip-10-s {background: rgba(0, 0, 0, 0) url("../images/pips/10-s.png") no-repeat scroll center center / 80% 100%;}
+.pip-3-c {background: rgba(0, 0, 0, 0) url("../images/pips/3-c.png") no-repeat scroll center center / 80% 100%;}
+.pip-3-s {background: rgba(0, 0, 0, 0) url("../images/pips/3-s.png") no-repeat scroll center center / 80% 100%;}
+.pip-4-c {background: rgba(0, 0, 0, 0) url("../images/pips/4-c.png") no-repeat scroll center center / 80% 100%;}
+.pip-4-s {background: rgba(0, 0, 0, 0) url("../images/pips/4-s.png") no-repeat scroll center center / 80% 100%;}
+.pip-6-d {background: rgba(0, 0, 0, 0) url("../images/pips/6-d.png") no-repeat scroll center center / 80% 100%;}
+.pip-7-d {background: rgba(0, 0, 0, 0) url("../images/pips/7-d.png") no-repeat scroll center center / 80% 100%;}
+.pip-8-s {background: rgba(0, 0, 0, 0) url("../images/pips/8-s.png") no-repeat scroll center center / 80% 100%;}
+.pip-a-c {background: rgba(0, 0, 0, 0) url("../images/pips/a-c.png") no-repeat scroll center center / 80% 100%;}
+.pip-a-h {background: rgba(0, 0, 0, 0) url("../images/pips/a-h.png") no-repeat scroll center center / 80% 100%;}
+.pip-a-s {background: rgba(0, 0, 0, 0) url("../images/pips/a-s.png") no-repeat scroll center center / 80% 100%;}
+.pip-2-c {background: rgba(0, 0, 0, 0) url("../images/pips/2-c.png") no-repeat scroll center center / 80% 100%;}
+.pip-j-h {background: rgba(0, 0, 0, 0) url("../images/pips/j-h.png") no-repeat scroll center center / 80% 100%;}
+.pip-k-s {background: rgba(0, 0, 0, 0) url("../images/pips/k-s.png") no-repeat scroll center center / 80% 100%;}
+.pip-q-h {background: rgba(0, 0, 0, 0) url("../images/pips/q-h.png") no-repeat scroll center center / 80% 100%;}
+.pip-q-s {background: rgba(0, 0, 0, 0) url("../images/pips/q-s.png") no-repeat scroll center center / 80% 100%;}
 

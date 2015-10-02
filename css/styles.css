@@ -147,7 +147,7 @@ ul ul li{
     width: 100%;
 }
 
-.pip { width: 100%; height: 100%; position: absolute;}
+.pip { width: 100%; height: 100%; position: absolute; transition: all .5s ease-in-out; background-position: center center; background-size: 80% 100%;}
 
 .position1-1{transition: all .5s ease-in-out;left: 2%;top: 2%;transform: rotate(0deg);}
 .position1-2{transition: all .5s ease-in-out;left: 22%;top: 2%;transform: rotate(0deg);}
