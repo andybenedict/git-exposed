@@ -1,4 +1,9 @@
 .nopip:before{
+	opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+card:before{
     content: "";
     display: block;
     height: 100%;
@@ -6,6 +11,8 @@
     position: absolute;
     top: 0;
     width: 100%;
+	opacity: 0;
+    transition: all .5s ease-in-out;
 }
 
 .s-a  {background: rgba(0, 0, 0, 0) url("../images/cards/A-S.png") repeat scroll 0 0 / 100% 100%;}
@@ -62,58 +69,58 @@
 .d-k  {background: rgba(0, 0, 0, 0) url("../images/cards/K-D.png") repeat scroll 0 0 / 100% 100%;}
 .master {background: rgba(0, 0, 0, 0) url("../images/cards/master.png") repeat scroll 0 0 / 100% 100%;}
 .feature {background: rgba(0, 0, 0, 0) url("../images/cards/feature.png") repeat scroll 0 0 / 100% 100%;}
-.s-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
-.s-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/7-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/J-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.s-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-S-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/5-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
-.h-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
-.h-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/J-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.h-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-H-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
-.c-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
-.c-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-C-n.png") repeat scroll 0 0 / 100% 100%;}
-.c-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
-.c-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
-.c-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
-.d-a.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-2.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-3.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-4.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-5.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
-.d-6.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-7.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/7-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-8.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
-.d-9.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-10.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-j.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
-.d-q.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-D-n.png") repeat scroll 0 0 / 100% 100%;}
-.d-k.nopip:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-a:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-2:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-3:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-4:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-5:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.s-6:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-7:before {background: rgba(0, 0, 0, 0) url("../images/cards/7-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-8:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-9:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-10:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-j:before {background: rgba(0, 0, 0, 0) url("../images/cards/J-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-q:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.s-k:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-a:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-2:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-3:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-4:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-5:before {background: rgba(0, 0, 0, 0) url("../images/cards/5-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-6:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-7:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.h-8:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-9:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-10:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.h-j:before {background: rgba(0, 0, 0, 0) url("../images/cards/J-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-q:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.h-k:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-H-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-a:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-2:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-3:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-4:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-5:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-6:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-7:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-8:before {background: rgba(0, 0, 0, 0) url("../images/cards/8-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-9:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-10:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-C-n.png") repeat scroll 0 0 / 100% 100%;}
+.c-j:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-q:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.c-k:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-r.png") repeat scroll 0 0 / 100% 100%;}
+.d-a:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-2:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-3:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-4:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-5:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.d-6:before {background: rgba(0, 0, 0, 0) url("../images/cards/6-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-7:before {background: rgba(0, 0, 0, 0) url("../images/cards/7-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-8:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.d-9:before {background: rgba(0, 0, 0, 0) url("../images/cards/9-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-10:before {background: rgba(0, 0, 0, 0) url("../images/cards/10-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-j:before {background: rgba(0, 0, 0, 0) url("../images/cards/blob-b.png") repeat scroll 0 0 / 100% 100%;}
+.d-q:before {background: rgba(0, 0, 0, 0) url("../images/cards/Q-D-n.png") repeat scroll 0 0 / 100% 100%;}
+.d-k:before {background: rgba(0, 0, 0, 0) url("../images/cards/K-D-n.png") repeat scroll 0 0 / 100% 100%;}
 
 .pip-10-s {background: rgba(0, 0, 0, 0) url("../images/pips/10-s.png") no-repeat scroll center center / 40% 50%;}
 .pip-3-c {background: rgba(0, 0, 0, 0) url("../images/pips/3-c.png") no-repeat scroll center center / 40% 50%;}
