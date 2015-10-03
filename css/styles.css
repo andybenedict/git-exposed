@@ -143,6 +143,11 @@ ul ul li{
     opacity: 0;
 }
 
+.gc{
+    transition: all .5s ease-in-out;
+    opacity: .4;
+}
+
 .line {
     transition: all .5s ease-in-out;
     position: absolute;
