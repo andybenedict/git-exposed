@@ -1070,5 +1070,34 @@ states = [
         {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature .pip","time":500,"toggle":"pip-4-c pip-8-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
+        
+        {"timer":""},
+        {"pause":""},
+        {"object":".line2-3-to-2-5","time":0,"toggle":"gc"},
+        {"object":".line1-4-to-2-5","time":0,"toggle":"gc"},
+        {"object":".s-8","time":0,"toggle":"gc"},
+
+        {"pause":""},
+        {"object":".s-3","time":0,"toggle":"offscreen position1-5"},
+        {"object":".line1-4-to-1-5","time":0,"toggle":"hidden"},
+
+        {"pause":""},
+        {"object":".s-3","time":0,"toggle":"nopip"},
+        {"object":".line1-2-to-2-3","time":0,"toggle":"gc"},
+        {"object":".c-4","time":0,"toggle":"gc"},
+        {"object":".feature .pip","time":0,"toggle":"hidden"},
+        {"object":".feature .pip","time":500,"toggle":"pip-4-c pip-3-s"},
+        {"object":".feature .pip","time":200,"toggle":"hidden"},
+
+        {"pause":""},
+        {"object":".master .pip","time":0,"toggle":"hidden"},
+        {"object":".master .pip","time":500,"toggle":"pip-j-h pip-3-s"},
+        {"object":".master .pip","time":200,"toggle":"hidden"},
+
+        {"pause":""},
+        {"object":".origin .pip","time":0,"toggle":"hidden"},
+        {"object":".origin .pip","time":500,"toggle":"pip-3-c pip-3-s"},
+        {"object":".origin .pip","time":200,"toggle":"hidden"},
+
         {"pause":""}
-]
+]   
