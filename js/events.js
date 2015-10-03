@@ -1,5 +1,4 @@
 states = [
-        {"timer":""},
         {"object":"logo","time":0,"toggle":"hidden"},
 
         /*
@@ -78,80 +77,80 @@ states = [
          */
         {"object":".workspace","time":0,"toggle":"hidden"},
         {"object":"tree","time":0,"toggle":"hidden"},
-//        {"pause":""},
+        {"pause":""},
         //create foo
         {"object":".d-j","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-j","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-j","time":0,"toggle":"front center position1-5"},
-//        {"pause":""},
+        {"pause":""},
         //create bar
         {"object":".c-5","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-5","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-5","time":0,"toggle":"front center position2-5"},
-//        {"pause":""},
+        {"pause":""},
         //create baz
         {"object":".c-7","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-7","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-7","time":0,"toggle":"front center position3-4"},
-//        {"pause":""},
+        {"pause":""},
         //create fiz
         {"object":".line2-4-to-1-5","time":0,"toggle":"hidden"},
         {"object":".line2-4-to-2-5","time":0,"toggle":"hidden"},
         {"object":".s-9","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-9","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-9","time":0,"toggle":"front center position2-4"},
-//        {"pause":""},
+        {"pause":""},
         //create settings
         {"object":".line2-3-to-2-4","time":0,"toggle":"hidden"},
         {"object":".line2-3-to-3-4","time":0,"toggle":"hidden"},
         {"object":".h-6","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-6","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-6","time":0,"toggle":"front center position2-3"},
-//        {"pause":""},
+        {"pause":""},
         //create app
         {"object":".d-2","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-2","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-2","time":0,"toggle":"front center position1-3"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
         {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
         //create root
         {"object":"tree","time":0,"toggle":"hidden"},
         {"object":".c-8","time":200,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-8","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-8","time":0,"toggle":"front center position1-2"},
-//        {"pause":""},
+        {"pause":""},
         //create commit
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
         {"object":".h-q","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":0,"toggle":"front center position1-1"},
-//        {"pause":""},
+        {"pause":""},
         //create register master
         {"object":".master","time":0,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".master .pip","time":0,"toggle":"hidden"},
         {"object":".master .pip","time":500,"toggle":"pip-q-h"},
         {"object":".master .pip","time":200,"toggle":"hidden"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".master","time":0,"toggle":"front center position4-5"},
-//        {"pause":""},
+        {"pause":""},
         
         /*
          * make a change
@@ -159,39 +158,39 @@ states = [
         //change baz
         {"object":".c-7","time":300,"toggle":"position3-4"},
         {"object":".d-5","time":300,"toggle":"offscreen front center"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-5","time":0,"toggle":"nopip"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-5","time":0,"toggle":"front center position3-4"},
         {"object":".ph2-3","time":300,"toggle":"changed"},
         {"object":".ph1-2","time":300,"toggle":"changed"},
         {"object":".ph1-1","time":300,"toggle":"changed"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-6","time":0,"toggle":"position2-3"},
         {"object":".d-q","time":300,"toggle":"offscreen position2-3"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-q","time":0,"toggle":"nopip"},
         {"object":".ph2-3","time":500,"toggle":"changed unchanged"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-8","time":0,"toggle":"position1-2"},
         {"object":".c-9","time":300,"toggle":"offscreen position1-2"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-9","time":0,"toggle":"nopip"},
         {"object":".ph1-2","time":500,"toggle":"changed unchanged"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":0,"toggle":"position1-1"},
         {"object":".s-4","time":300,"toggle":"offscreen position1-1"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-4","time":0,"toggle":"nopip"},
         {"object":".ph1-1","time":500,"toggle":"changed unchanged"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-1","time":0,"toggle":"unchanged"},        
         {"object":".ph1-2","time":0,"toggle":"unchanged"},
         {"object":".ph2-3","time":0,"toggle":"unchanged"},
         {"object":".master .pip","time":0,"toggle":"hidden"},
         {"object":".master .pip","time":500,"toggle":"pip-q-h pip-4-s"},
         {"object":".master .pip","time":200,"toggle":"hidden"},
-//        {"pause":""},
+        {"pause":""},
         
         {"object":".c-9","time":0,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":25,"toggle":"hidden"},
@@ -212,7 +211,7 @@ states = [
         {"object":".s-4","time":100,"toggle":"position1-1 position1-2"},
         {"object":".line1-1-to-1-2","time":100,"toggle":"hidden"},
         
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":0,"toggle":"hidden"},
         {"object":".s-4","time":0,"toggle":"hidden"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -224,7 +223,7 @@ states = [
          */
         
         /* Klee requests the repo */
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":0,"toggle":"hidden"},
         {"object":".s-4","time":0,"toggle":"hidden"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -232,7 +231,7 @@ states = [
         {"object":"body","time":0,"toggle":"klee"},
 
         /* Master resolves what needs to be transmitted */
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-4","time":100,"toggle":"position1-2"},
         {"object":".c-8","time":100,"toggle":"position1-2"},
         {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
@@ -248,7 +247,7 @@ states = [
         {"object":".d-j","time":100,"toggle":"position1-5"},
         {"object":".c-5","time":100,"toggle":"position2-5"},       
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-4","time":100,"toggle":"position1-1"},
         {"object":".h-q","time":0,"toggle":"position1-1 position2-1"},
         {"object":".c-9","time":100,"toggle":"position1-2"},
@@ -258,7 +257,7 @@ states = [
         {"object":".d-5","time":100,"toggle":"position3-4"},
         {"object":".c-7","time":0,"toggle":"position3-4 position2-1"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-4","time":100,"toggle":"position1-1 position2-1"},
         {"object":".c-9","time":100,"toggle":"position1-2 position2-1"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -276,11 +275,11 @@ states = [
         {"object":".c-5","time":100,"toggle":"position2-5 position2-1"},
 
         /* transfer files */
-//        {"pause":""},
+        {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
         {"object":".master","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-q","time":100,"toggle":"position2-1"},
         {"object":".d-j","time":100,"toggle":"position2-1"},
         {"object":".d-5","time":100,"toggle":"position2-1"},
@@ -295,21 +294,21 @@ states = [
         {"object":".s-4","time":100,"toggle":"position2-1"},
 
         /* Create master branch */
-//        {"pause":""},
+        {"pause":""},
         {"object":".master","time":0,"toggle":"hidden"},
 
         /*
          * Introduce origin/master
          */
-//        {"pause":""},
+        {"pause":""},
         {"object":".origin","time":0,"toggle":"nopip offscreen position4-4"},
         
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".origin .pip","time":0,"toggle":"hidden"},
         {"object":".origin .pip","time":500,"toggle":"pip-4-s"},
         {"object":".origin .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
         {"object":".origin","time":0,"toggle":"hidden"},
 
@@ -321,30 +320,30 @@ states = [
         {"object":".s-4","time":100,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":100,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".feature","time":0,"toggle":"nopip offscreen position4-4"},
         
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature .pip","time":500,"toggle":"pip-4-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".s-k","time":0,"toggle":"offscreen front center"},
 
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".s-k","time":0,"toggle":"nopip"},
 
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".s-k","time":0,"toggle":"front center position1-3"},
         {"object":".line1-2-to-1-3","time":100,"toggle":"hidden"},
 
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature .pip","time":500,"toggle":"pip-k-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":100,"toggle":"position1-1"},
         {"object":".s-4","time":100,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -384,7 +383,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-k-s pip-6-d"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph3-4","time":0,"toggle":"unchanged"},
         {"object":".ph2-3","time":0,"toggle":"unchanged"},
         {"object":".ph1-2","time":0,"toggle":"unchanged"},
@@ -418,11 +417,12 @@ states = [
          * Merge branch into master (fast forward)
          */
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".master .pip","time":0,"toggle":"hidden"},
         {"object":".master .pip","time":500,"toggle":"pip-4-s pip-6-d"},
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
+        {"pause":""},
         {"object":".s-k","time":100,"toggle":"position1-3"},
         {"object":".line1-2-to-1-3","time":0,"toggle":"hidden"},
         {"object":".d-6","time":100,"toggle":"position1-4"},
@@ -437,7 +437,7 @@ states = [
         {"object":".feature","time":0,"toggle":"hidden"},
         {"object":".origin","time":0,"toggle":"hidden"},
 
-//        {"pause":""},        
+        {"pause":""},        
         {"object":".s-10","time":300,"toggle":"offscreen front center"},
 
         {"object":".s-10","time":300,"toggle":"nopip"},
@@ -449,7 +449,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-4-s pip-10-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
     
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-q","time":300,"toggle":"offscreen front center"},
 
         {"object":".s-q","time":300,"toggle":"nopip"},
@@ -461,7 +461,7 @@ states = [
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":100,"toggle":"position1-1"},
         {"object":".s-4","time":100,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -486,7 +486,7 @@ states = [
         {"object":".h-10","time":100,"toggle":"offscreen position1-5"},
         {"object":".c-5","time":100,"toggle":"position2-5"},       
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-5","time":300,"toggle":"changed"},
         {"object":".ph2-4","time":300,"toggle":"changed"},
         {"object":".ph2-3","time":300,"toggle":"changed"},
@@ -507,7 +507,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-q-s pip-a-c"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-5","time":0,"toggle":"unchanged"},
         {"object":".ph2-4","time":0,"toggle":"unchanged"},
         {"object":".ph2-3","time":0,"toggle":"unchanged"},
@@ -539,7 +539,7 @@ states = [
         {"object":".line1-3-to-1-4","time":0,"toggle":"hidden"},
         {"object":".line1-4-to-1-5","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-k","time":100,"toggle":"position2-3"},
         {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
         {"object":".d-6","time":100,"toggle":"position2-4"},
@@ -551,14 +551,14 @@ states = [
         /*
          * Initiate a 3-way merge
          */
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph2-4","time":0,"toggle":"unchanged"},    
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-5","time":0,"toggle":"unchanged"},    
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-2","time":0,"toggle":"unchanged"},    
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-q","time":0,"toggle":"position1-1"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
         {"object":".s-10","time":0,"toggle":"position1-3"},
@@ -570,17 +570,17 @@ states = [
         {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
         {"object":".line2-3-to-2-4","time":0,"toggle":"hidden"},
         
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-2","time":0,"toggle":"unchanged"},    
         {"object":".s-4","time":300,"toggle":"position1-2 position1-1"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph2-4","time":0,"toggle":"unchanged"},    
         {"object":".d-6","time":300,"toggle":"position2-4 position3-5"},
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-5","time":0,"toggle":"unchanged"},    
         {"object":".c-a","time":300,"toggle":"position1-5 position3-5"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-9","time":300,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
         {"object":".d-2","time":300,"toggle":"position1-3"},
@@ -596,7 +596,7 @@ states = [
         {"object":".line2-4-to-1-5","time":100,"toggle":"hidden"},
         {"object":".line2-4-to-2-5","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-4","time":0,"toggle":"position1-1"},
         {"object":".c-a","time":0,"toggle":"position1-1 position3-5"},
         {"object":".ph1-1","time":0,"toggle":"changed"},
@@ -616,7 +616,7 @@ states = [
         {"object":".ph1-5","time":0,"toggle":"changed"},    
         {"object":".ph2-5","time":0,"toggle":"unchanged"},    
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-a","time":0,"toggle":"position1-1"},
         {"object":".d-6","time":0,"toggle":"position1-1 position3-5"},
         {"object":".ph1-1","time":0,"toggle":"changed conflict"},
@@ -630,26 +630,26 @@ states = [
         {"object":".d-8","time":0,"toggle":"position3-4"},
         {"object":".ph3-4","time":0,"toggle":"unchanged changed"},    
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-5","time":0,"toggle":"changed"},
         {"object":".ph2-5","time":0,"toggle":"unchanged"},
         {"object":".ph2-4","time":0,"toggle":"changed"},
         {"object":".ph3-4","time":0,"toggle":"changed"},
         {"object":".ph1-3","time":0,"toggle":"unchanged"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-2","time":0,"toggle":"position2-3"},
         {"object":".d-3","time":0,"toggle":"offscreen position2-3"},
         {"object":".d-3","time":500,"toggle":"nopip"},
         {"object":".ph2-3","time":0,"toggle":"conflict"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-10","time":0,"toggle":"position1-2"},
         {"object":".s-j","time":0,"toggle":"offscreen position1-2"},
         {"object":".s-j","time":500,"toggle":"nopip"},
         {"object":".ph1-2","time":0,"toggle":"conflict"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-6","time":0,"toggle":"position1-1"},
         {"object":".h-j","time":0,"toggle":"offscreen position1-1"},
         {"object":".h-j","time":500,"toggle":"nopip"},
@@ -658,7 +658,6 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-a-c pip-j-h"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-        {"timer":""},
         {"pause":""},
         {"object":".s-j","time":0,"toggle":"position1-2"},
         {"object":".d-2","time":0,"toggle":"position1-3"},
@@ -693,17 +692,17 @@ states = [
         {"object":".line1-4-to-2-5","time":0,"toggle":"hidden"},
         {"object":".line2-3-to-2-5","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".master .pip","time":0,"toggle":"hidden"},
         {"object":".master .pip","time":500,"toggle":"pip-4-s pip-j-h"},
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
         {"object":".origin .pip","time":500,"toggle":"pip-6-d pip-j-h"},
         {"object":".origin .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature","time":0,"toggle":"hidden"},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
@@ -727,7 +726,7 @@ states = [
         {"object":".line1-4-to-2-5","time":0,"toggle":"hidden"},
         {"object":".line2-3-to-2-5","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":"body","time":0,"toggle":"hoban"},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
         {"object":".origin","time":0,"toggle":"hidden"},
@@ -750,7 +749,7 @@ states = [
         {"object":".line2-4-to-1-5","time":100,"toggle":"hidden"},
         {"object":".line2-4-to-2-5","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".d-8","time":300,"toggle":"position3-4"},
         {"object":".s-5","time":300,"toggle":"offscreen position3-4"},
         {"object":".s-5","time":500,"toggle":"nopip"},
@@ -779,7 +778,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-j-h pip-4-c"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-4","time":0,"toggle":"position1-1"},
         {"object":".h-9","time":0,"toggle":"position1-2"},
         {"object":".d-2","time":0,"toggle":"position1-3"},
@@ -802,7 +801,7 @@ states = [
         {"object":".feature","time":0,"toggle":"hidden"},
         {"object":".feature .pip","time":500,"toggle":"pip-4-c pip-j-h"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":"body","time":0,"toggle":"zoe"},
         {"object":".origin","time":0,"toggle":"hidden"},
 
@@ -816,10 +815,10 @@ states = [
         {"object":".h-j","time":0,"toggle":"position1-3"},
         {"object":".line2-2-to-1-3","time":0,"toggle":"hidden"},
         
-//        {"pause":""},
+        {"pause":""},
         {"object":".feature","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-a","time":300,"toggle":"offscreen front center"},
         {"object":".h-a","time":300,"toggle":"nopip"},
         {"object":".h-a","time":300,"toggle":"front center position1-4"},
@@ -828,7 +827,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-j-h pip-a-h"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-q","time":0,"toggle":"position1-1"},
         {"object":".s-k","time":0,"toggle":"position2-1"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -868,17 +867,17 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-a-h pip-3-c"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".master .pip","time":0,"toggle":"hidden"},
         {"object":".master .pip","time":500,"toggle":"pip-j-h pip-3-c"},
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
         {"object":".origin .pip","time":500,"toggle":"pip-j-h pip-3-c"},
         {"object":".origin .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-3","time":0,"toggle":"position1-1"},
         {"object":".d-4","time":0,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -907,7 +906,7 @@ states = [
 
         {"object":"body","time":0,"toggle":"zoe hoban"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
         {"object":".origin .pip","time":500,"toggle":"pip-j-h pip-3-c"},
         {"object":".origin .pip","time":200,"toggle":"hidden"},
@@ -924,12 +923,12 @@ states = [
         {"object":".c-3","time":0,"toggle":"position1-4"},
         {"object":".c-4","time":0,"toggle":"position2-3"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-2","time":0,"toggle":"unchanged"},
         {"object":".ph2-3","time":0,"toggle":"unchanged"},
         {"object":".ph1-4","time":0,"toggle":"unchanged"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-a","time":0,"toggle":"position1-1"},
         {"object":".d-6","time":0,"toggle":"position2-1"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -961,7 +960,7 @@ states = [
         {"object":".line2-4-to-2-5","time":0,"toggle":"hidden"},
 
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".h-j","time":0,"toggle":"position1-1"},
         {"object":".c-4","time":0,"toggle":"position1-1"},
         {"object":".ph1-1","time":0,"toggle":"changed"},
@@ -979,7 +978,7 @@ states = [
         {"object":".ph1-5","time":0,"toggle":"unchanged"},    
         {"object":".ph2-5","time":0,"toggle":"unchanged"}, 
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-4","time":0,"toggle":"position1-1"},
         {"object":".c-3","time":0,"toggle":"position1-1"},
         {"object":".ph1-1","time":0,"toggle":"changed conflict"},
@@ -998,26 +997,26 @@ states = [
         {"object":".c-k","time":0,"toggle":"position2-5"},
         {"object":".ph2-5","time":0,"toggle":"unchanged changed"}, 
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".ph1-3","time":0,"toggle":"unchanged"},
         {"object":".ph1-5","time":0,"toggle":"unchanged"},
         {"object":".ph2-4","time":0,"toggle":"changed"},
         {"object":".ph2-5","time":0,"toggle":"changed"},
         
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-j","time":0,"toggle":"position3-4 position3-5"},
         {"object":".s-5","time":0,"toggle":"position3-4 position3-3"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-q","time":0,"toggle":"offscreen position3-4"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-q","time":0,"toggle":"nopip"},
         {"object":".c-j","time":0,"toggle":"position3-5"},
         {"object":".s-5","time":0,"toggle":"position3-3"},
         {"object":".ph3-4","time":0,"toggle":"conflict"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".c-6","time":300,"toggle":"position2-3"},
         {"object":".h-2","time":0,"toggle":"offscreen position2-3"},
         {"object":".ph2-3","time":0,"toggle":"conflict"},
@@ -1035,7 +1034,7 @@ states = [
         {"object":".feature .pip","time":500,"toggle":"pip-4-c pip-8-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".s-8","time":0,"toggle":"position1-1 position2-5"},
         {"object":".h-k","time":0,"toggle":"position1-2"},
         {"object":".line1-1-to-1-2","time":0,"toggle":"hidden"},
@@ -1066,12 +1065,11 @@ states = [
         {"object":".line2-3-to-2-5","time":0,"toggle":"hidden"},
         {"object":".line1-4-to-2-5","time":0,"toggle":"hidden"},
 
-//        {"pause":""},
+        {"pause":""},
         {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature .pip","time":500,"toggle":"pip-4-c pip-8-s"},
         {"object":".feature .pip","time":200,"toggle":"hidden"},
         
-        {"timer":""},
         {"pause":""},
         {"object":".line2-3-to-2-5","time":0,"toggle":"gc"},
         {"object":".line1-4-to-2-5","time":0,"toggle":"gc"},
