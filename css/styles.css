@@ -50,6 +50,11 @@ card{
         position: absolute;
         border-radius: 15px;
         transform: rotate(60deg);
+        z-index: 100;
+}
+
+.branch {
+    z-index: 10;
 }
 
 tree {
@@ -206,7 +211,7 @@ ul ul li{
 
 .deck {
         background: rgba(0, 0, 0, 0) url("../images/cards/CardBack.png") repeat scroll 0 0 / 100% 100%;
-        z-index: 100;
+        z-index: 120;
         transform: rotate(60deg) scale(1.03);
 }
 
