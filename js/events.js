@@ -302,16 +302,16 @@ states = [
          * Introduce origin/master
          */
 //        {"pause":""},
-        {"object":".s-a","time":0,"toggle":"nopip offscreen position4-4"},
+        {"object":".origin","time":0,"toggle":"nopip offscreen position4-4"},
         
 //        {"pause":""},        
-        {"object":".s-a .pip","time":0,"toggle":"hidden"},
-        {"object":".s-a .pip","time":500,"toggle":"pip-4-s"},
-        {"object":".s-a .pip","time":200,"toggle":"hidden"},
+        {"object":".origin .pip","time":0,"toggle":"hidden"},
+        {"object":".origin .pip","time":500,"toggle":"pip-4-s"},
+        {"object":".origin .pip","time":200,"toggle":"hidden"},
 
 //        {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
-        {"object":".s-a","time":0,"toggle":"hidden"},
+        {"object":".origin","time":0,"toggle":"hidden"},
 
         /*
          * Create a branch
@@ -435,7 +435,7 @@ states = [
         {"object":".master .pip","time":200,"toggle":"hidden"},
         {"object":".feature .pip","time":0,"toggle":"hidden"},
         {"object":".feature","time":0,"toggle":"hidden"},
-        {"object":".s-a","time":0,"toggle":"hidden"},
+        {"object":".origin","time":0,"toggle":"hidden"},
 
 //        {"pause":""},        
         {"object":".s-10","time":300,"toggle":"offscreen front center"},
@@ -544,9 +544,9 @@ states = [
         {"object":".line1-2-to-2-3","time":0,"toggle":"hidden"},
         {"object":".d-6","time":100,"toggle":"position2-4"},
         {"object":".line2-3-to-2-4","time":0,"toggle":"hidden"},
-        {"object":".s-a .pip","time":0,"toggle":"hidden"},
-        {"object":".s-a .pip","time":500,"toggle":"pip-4-s pip-6-d"},
-        {"object":".s-a .pip","time":200,"toggle":"hidden"},
+        {"object":".origin .pip","time":0,"toggle":"hidden"},
+        {"object":".origin .pip","time":500,"toggle":"pip-4-s pip-6-d"},
+        {"object":".origin .pip","time":200,"toggle":"hidden"},
 
         /*
          * Initiate a 3-way merge

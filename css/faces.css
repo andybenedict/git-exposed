@@ -15,7 +15,7 @@ card:before{
     transition: all .5s ease-in-out;
 }
 
-.s-a  {background: rgba(0, 0, 0, 0) url("../images/cards/A-S.png") repeat scroll 0 0 / 100% 100%;}
+.origin  {background: rgba(0, 0, 0, 0) url("../images/cards/A-S.png") repeat scroll 0 0 / 100% 100%;}
 .s-2  {background: rgba(0, 0, 0, 0) url("../images/cards/2-S.png") repeat scroll 0 0 / 100% 100%;}
 .s-3  {background: rgba(0, 0, 0, 0) url("../images/cards/3-S.png") repeat scroll 0 0 / 100% 100%;}
 .s-4  {background: rgba(0, 0, 0, 0) url("../images/cards/4-S.png") repeat scroll 0 0 / 100% 100%;}
@@ -69,7 +69,7 @@ card:before{
 .d-k  {background: rgba(0, 0, 0, 0) url("../images/cards/K-D.png") repeat scroll 0 0 / 100% 100%;}
 .master {background: rgba(0, 0, 0, 0) url("../images/cards/master.png") repeat scroll 0 0 / 100% 100%;}
 .feature {background: rgba(0, 0, 0, 0) url("../images/cards/feature.png") repeat scroll 0 0 / 100% 100%;}
-.s-a:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-S-n.png") repeat scroll 0 0 / 100% 100%;}
+.origin:before {background: rgba(0, 0, 0, 0) url("../images/cards/A-S-n.png") repeat scroll 0 0 / 100% 100%;}
 .s-2:before {background: rgba(0, 0, 0, 0) url("../images/cards/2-S-n.png") repeat scroll 0 0 / 100% 100%;}
 .s-3:before {background: rgba(0, 0, 0, 0) url("../images/cards/3-S-n.png") repeat scroll 0 0 / 100% 100%;}
 .s-4:before {background: rgba(0, 0, 0, 0) url("../images/cards/4-S-n.png") repeat scroll 0 0 / 100% 100%;}
