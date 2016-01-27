@@ -3,16 +3,17 @@ states = [
 
         /*
                 Slide 1
-
+        */
         {"object":"slide.background","time":0,"toggle":"hidden"},
         {"object":"#slide1","time":0,"toggle":"hidden"},
         {"pause":""},
+        {"object":"#slide1 p","time":0,"toggle":"hidden"},
+        {"pause":""},
         {"object":"#slide1","time":0,"toggle":"hidden"},
-        */
 
         /*
                 Slide 2
-
+        */
         {"object":"#slide2","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide2 .show1","time":0,"toggle":"hidden"},
@@ -28,22 +29,22 @@ states = [
         {"object":"#slide2 .show6","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide2","time":0,"toggle":"hidden"},
-        */
 
         /*
                 Slide 3
-
+        */
         {"object":"#slide3","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide3 .show1","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide3 .show2","time":0,"toggle":"hidden"},
+        {"object":"#slide3 .show3","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide3","time":0,"toggle":"hidden"},
-        */
 
         /*
                 Slide 4
+        */
 
         {"object":"#slide4","time":0,"toggle":"hidden"},
         {"pause":""},
@@ -68,10 +69,36 @@ states = [
         {"object":"#slide4 .show10","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide4","time":0,"toggle":"hidden"},
-        {"object":"slide.background","time":0,"toggle":"hidden"},		
-        {"pause":""},
+
+        /*
+                Slide 5
         */
 
+        {"object":"#slide5","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show1","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show2","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show3","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show4","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show5","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show6","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show7","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show8","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5 .show9","time":0,"toggle":"hidden"},
+        {"pause":""},
+        {"object":"#slide5","time":0,"toggle":"hidden"},
+        {"object":"slide.background","time":0,"toggle":"hidden"},		
+        {"pause":""},
+		
+		
         /* 
          * First Commit
          */
@@ -1097,5 +1124,13 @@ states = [
         {"object":".origin .pip","time":500,"toggle":"pip-3-c pip-3-s"},
         {"object":".origin .pip","time":200,"toggle":"hidden"},
 
+        {"pause":""},
+
+        /*
+                Contact Slide
+        */
+
+        {"object":"#contactslide","time":0,"toggle":"hidden"},
         {"pause":""}
+		
 ]   
