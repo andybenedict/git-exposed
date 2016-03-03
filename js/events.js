@@ -1130,6 +1130,7 @@ states = [
                 Contact Slide
         */
 
+        {"object":"slide.background","time":0,"toggle":"hidden"},
         {"object":"#contactslide","time":0,"toggle":"hidden"},
         {"pause":""}
 		
