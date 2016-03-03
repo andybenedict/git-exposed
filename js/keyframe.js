@@ -3,6 +3,14 @@ index = -1;
 lock = false;
 timer = true;
 
+fontplus = function(){
+    $("body").css('font-size', parseInt($("body").css('font-size')) + 1 + "px");
+}
+
+fontminus = function(){
+    $("body").css('font-size', parseInt($("body").css('font-size')) - 1 + "px");
+}
+
 keyadvance = function(){
         if (!lock){
                 advance();
@@ -87,6 +95,14 @@ $(document).ready(function(){
                         case 40: // down
                         break;
 
+                        case 61: // plus
+                        fontplus();
+                        break;
+
+                        case 173: // minus
+                        fontminus();
+                        break;
+                        
                         default: return; // exit this handler for other keys
                 }
                 e.preventDefault(); // prevent the default action (scroll / move caret)
