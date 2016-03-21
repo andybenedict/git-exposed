@@ -1,97 +1,342 @@
 states = [
+    
+        /*
+         * Before we get started, let's take a moment to get you prepared:
+         * 
+         * This is an interative presentation, and in order to get the most
+         * out of it, I highly recommend you participate at home.
+         * 
+         * If you're watching the video of the presentation, keep your mouse
+         * on the pause button, we will be operating on the assumption that
+         * you can pause and rewind as needed, so we won't be trying to guess
+         * how much empty time to add between things. Take as much as you 
+         * need.
+         * 
+         * To completely play along, you'll need a few props:
+         * 54 playing cards
+         *     *  make your own deck with a blank deck of cards, or even a 
+         *        pack of index cards will do the job, you'll need at least
+         *        2 colors of markers to write out the cards
+         *     *  you can download a PDF of the cards used in the
+         *        presentation, print and cut them out
+         * 1-2 Markers
+         * PostIt notes
+         * 
+         */
         {"object":"logo","time":0,"toggle":"hidden"},
 
         /*
-                Slide 1
-        */
+         * Slide 1
+         * 
+         * So, what is git?
+         * 
+         * Now, if you're listening at home, please don't turn this off
+         * after hearing this, I promise that if you play the at home
+         * version of the game, by the time we're done, you'll understand
+         * every concept in the next sentance.
+         * 
+         */
         {"object":"slide.background","time":0,"toggle":"hidden"},
         {"object":"#slide1","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 1.1
+         * 
+         * Git is a version control system designed to track the history
+         * of text files across multiple distributed instances, without 
+         * the need for constant communication between instances, by 
+         * representing files, their relationships, and their history as
+         * complete, raw data blobs stored in a compressed database 
+         * indexed by staticially unique, content-based, pseudo-random
+         * hashes and whose entire history and content can be accessed,
+         * from any aribrary starting point, by means of the recursive
+         * traversal of its node space, which is best represented in the
+         * form of a directed acyclic graph mapped, along with its
+         * content in four dimensions.
+         * 
+         */
         {"object":"#slide1 p","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide1","time":0,"toggle":"hidden"},
 
         /*
-                Slide 2
-        */
+         * Slide 2
+         */
         {"object":"#slide2","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 2.1
+         * 
+         * The earliest version control systems were a necessary step, but were
+         * so primitive that they can barely be considered in the same family
+         * as more modern system. They allowed tracking of files on only one
+         * computer, and often only once file at a time.
+         * 
+         * Each generation eventually had a VCS come out on top, to the point
+         * that it essentially defined the generation
+         * 
+         */
         {"object":"#slide2 .show1","time":0,"toggle":"hidden"},
-        {"pause":""},
         {"object":"#slide2 .show2","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 2.2
+         * 
+         * The first generation of modern VCS was the Concurrent Versioning 
+         * System or CVS. It was server based, which made it a tool that could
+         * be used by teams, but major VCS features like branching were very 
+         * difficult to do and as a result, usually were ignored all together.
+         * 
+         */
         {"object":"#slide2 .show3","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 2.3
+         * 
+         * Mostly because people were fed up with using CVS. Subversion was 
+         * created as a replacement. Billed as "CVS Done Right" it was largely
+         * modeled after CVS in how it did things, for example, both systems 
+         * were centralized on a server. Without an active network connection
+         * it was impossible to commit.
+         * 
+         * While easier, branching was still expensive and somewhat difficult
+         * to manage. Again, most teams just didn't want to deal with it and
+         * developed on a single branch.
+         * 
+         */
         {"object":"#slide2 .show4","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 2.4
+         * 
+         * The current generation of VCS went back to the drawing board and 
+         * attempted to build a more modern system that would work for the new
+         * realities of development.
+         * 
+         * Git and Mercurial are the two open source system in this generation.
+         * While they function very differently in their specifics, they are
+         * in fact very similar in their operation. 
+         * 
+         * Both are distributed systems, so while there can be a central server,
+         * repositories are cloned locally and users can interact with them
+         * without the need for an active network connection. This fact alone 
+         * makes this generation much better suited to the work anywhere nature
+         * of the modern development team.
+         * 
+         */
         {"object":"#slide2 .show5","time":0,"toggle":"hidden"},
-        {"pause":""},
         {"object":"#slide2 .show6","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide2","time":0,"toggle":"hidden"},
 
         /*
-                Slide 3
-        */
+         * Slide 3
+         */
         {"object":"#slide3","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 3.1
+         * 
+         * Git was released in 2005
+         */
         {"object":"#slide3 .show1","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 3.2
+         * 
+         * It was originally written by Linus Torvolds to manage the linux 
+         * kernel project
+         */
         {"object":"#slide3 .show2","time":0,"toggle":"hidden"},
         {"object":"#slide3 .show3","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide3","time":0,"toggle":"hidden"},
 
         /*
-                Slide 4
-        */
-
+         * Slide 4
+         * 
+         * Even after ten years of use, git still seems to be very confusing for
+         * a lot of people, and there are several reasons.
+         * 
+         * First, people who understand how it works tend to use a lot of fancy 
+         * computer-sciency terms when talking about it. And while they are 
+         * accurate, it really only means somthing to you if you already know
+         * what those terms mean.
+         */
         {"object":"#slide4","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.1
+         * 
+         * Things like "Directed Acyclic Graph"
+         */
         {"object":"#slide4 .show1","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.2
+         * 
+         * Or "Recursive Traversal of the Node space"
+         */
         {"object":"#slide4 .show2","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.3
+         * 
+         * It's also very difficult to actually graph its tree in a way that
+         * isn't misleading.
+         */
         {"object":"#slide4 .show3","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.4
+         * 
+         * There is a lot of incorrect information about git floating around. 
+         * Most of it is harmless and won't hurt you in learning how to use git
+         * but in order to really leverage git you need to understand how it 
+         * thinks.
+         */
         {"object":"#slide4 .show4","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.5
+         * 
+         * Its distributed structure takes some getting used to, especially when
+         * you are used to older systems.
+         */
         {"object":"#slide4 .show5","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.6
+         * 
+         * A lot of that misinformation and difficulty comes from trying to 
+         * compare git to systems you already know. A lot of the commands are
+         * similar to older systems, and so many people incorrectly apply their
+         * understanding of CVS or Subversion to git, which will eventually
+         * cause them headaches.
+         */
         {"object":"#slide4 .show6","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.7
+         * 
+         * Git has a lot of things commonly referred to as trees, including
+         * both the history and the file system
+         */
         {"object":"#slide4 .show7","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.8
+         * 
+         * Because if its distributed nature, you'll frequently have multiple 
+         * versions of the same branch. Some referencing your state and another
+         * representing the state of that branch on another copy of the repo in 
+         * another location
+         */
         {"object":"#slide4 .show8","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.9
+         * 
+         * A legitimate difficulty is that git tends to value speed over ease
+         * of use
+         */
         {"object":"#slide4 .show9","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 4.10
+         * 
+         * As a result, the command line syntax can often get a big wobbly, but
+         * as you learn how git works, a lot of it will make more sense.
+         */
         {"object":"#slide4 .show10","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide4","time":0,"toggle":"hidden"},
 
         /*
-                Slide 5
-        */
-
+         * Slide 5
+         * 
+         * Every object in git is given a hash to identify it in the database
+         */
         {"object":"#slide5","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.1
+         * 
+         * Git uses a SHA1 hash
+         */
         {"object":"#slide5 .show1","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.2
+         * 
+         * It generates its has based on the content of the file
+         */
         {"object":"#slide5 .show2","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.3
+         * 
+         * SHA1 is a waterfall hash, so a single bit changed anywhere in the
+         * file drastically alters the final hash
+         */
         {"object":"#slide5 .show3","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.4
+         * 
+         * The hashes produced follow no known patterns even though they are 
+         * based on content.
+         */
         {"object":"#slide5 .show4","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.5
+         * 
+         * Hashes are statistically unique, meaning that the probability of the
+         * same hash being generated for two files is so astronomical that it 
+         * isn't even worth considering
+         */
         {"object":"#slide5 .show5","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.6
+         * 
+         * SHA1 produces a 160 bit hash, meaning that there are 2^160 possible
+         * hashes
+         */
         {"object":"#slide5 .show6","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.7
+         * 
+         * That's big, REALLY big
+         */
         {"object":"#slide5 .show7","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.8
+         * 
+         * Imagine we were to write each hash value on a standard poker size 
+         * playing card and make them into a deck. It's hard to express how big
+         * it is, but we'll try. From where you are standing, pick a direction.
+         * Go 15 million kilometers in that direction. Draw a big circle around 
+         * your starting point and fill that circle with cards all the way to
+         * the edge. Then start stacking the cards up, until they reach from one
+         * end of the observable universe to the other. About 93 billion light
+         * years. A light-year is about 9.5 billion kilometers.
+         * 
+         * This deck of cards would require the matter of over 1 million milky-
+         * way sized galaxies to manufacture. And it would promptly collapse 
+         * into a black hole that would wipe out all life.
+         */
         {"object":"#slide5 .show8","time":0,"toggle":"hidden"},
         {"pause":""},
+        /*
+         * Slide 5.9
+         * 
+         * For simplicity, and safety, we've compressed the hash space for this
+         * presentation to fit a normal 54 card deck.
+         */
         {"object":"#slide5 .show9","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide5","time":0,"toggle":"hidden"},
