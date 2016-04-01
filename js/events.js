@@ -4,7 +4,7 @@ states = [
          * I know a lot of people who use git, but few of them have taken the 
          * time to really understand it. They make assumptions about how it 
          * works, and when it doesn't behave in the way those assumptions 
-         * suggest, they turn to Google in confusion only to read explainations 
+         * suggest, they turn to Google in confusion only to read explanations 
          * and watch videos written by other people who have made incorrect 
          * assumptions and provide misleading analogies of how it works. 
          * 
@@ -15,13 +15,13 @@ states = [
          * their lack of faith.
          * 
          * Arthur C. Clarke once said that "any sufficiently advanced technology
-         * is indisguishable from magic." I assure you, it's not magic, and if
+         * is indistinguishable from magic." I assure you, it's not magic, and if
          * you stick with me and play along, by the time we're done git will
          * seem a lot less mysterious.
          * 
          * Before we get started, let's take a moment to get you prepared:
          * 
-         * This is an interative presentation, and in order to get the most
+         * This is an interactive presentation, and in order to get the most
          * out of it, I highly recommend you participate at home.
          * 
          * To completely play along, you'll need a few props:
@@ -50,10 +50,10 @@ states = [
          * 
          * So, what is git?
          * 
-         * I'm going to sum git up in a single sentance, please don't turn this 
+         * I'm going to sum git up in a single sentence, please don't turn this 
          * off after hearing this, I promise that if you play the at home
          * version of the game, by the time we're done, you'll understand
-         * every concept in the next sentance.
+         * every concept in the next sentence.
          * 
          */
         {"object":"slide.background","time":0,"toggle":"hidden"},
@@ -67,9 +67,9 @@ states = [
          * the need for constant communication between instances, by 
          * representing files, their relationships, and their history as
          * complete, raw data blobs stored in a compressed database 
-         * indexed by staticially unique, content-based, pseudo-random
+         * indexed by statically unique, content-based, pseudo-random
          * hashes and whose entire history and content can be accessed,
-         * from any aribrary starting point, by means of the recursive
+         * from any arbitrary starting point, by means of the recursive
          * traversal of its node space, which is best represented in the
          * form of a directed acyclic graph mapped, along with its
          * content in four dimensions.
@@ -114,7 +114,7 @@ states = [
          * 
          * Mostly because people were fed up with using CVS. Subversion was 
          * created as a replacement. Billed as "CVS Done Right" it was largely
-         * modeled after CVS in how it did things, for example, both systems 
+         * modelled after CVS in how it did things, for example, both systems 
          * were centralized on a server. Without an active network connection
          * it was impossible to commit.
          * 
@@ -163,8 +163,8 @@ states = [
         /*
          * Slide 3.2
          * 
-         * It was originally written by Linus Torvolds to manage the linux 
-         * kernel project
+         * It was originally written by Linus Torvolds to manage the Linux 
+         * Kernel project
          */
         {"object":"#slide3 .show2","time":0,"toggle":"hidden"},
         {"object":"#slide3 .show3","time":0,"toggle":"hidden"},
@@ -179,7 +179,7 @@ states = [
          * 
          * First, people who understand how it works tend to use a lot of fancy 
          * computer-sciency terms when talking about it. And while they are 
-         * accurate, it really only means somthing to you if you already know
+         * accurate, it really only means something to you if you already know
          * what those terms mean.
          */
         {"object":"#slide4","time":0,"toggle":"hidden"},
@@ -381,7 +381,7 @@ states = [
         /* 
          * Now let's copy our files into the working folder and add them to the 
          * index. The git index is a holding area where you build the contents 
-         * of a commit before actually commiting it.
+         * of a commit before actually committing it.
          */
         {"object":"tree","time":0,"toggle":"hidden"},
         {"pause":""},
@@ -496,7 +496,7 @@ states = [
          * just like the settings folder, for our purposes the only thing we 
          * need to know about the app folder is that it's the 2 of diamonds. 
          * It could contain 3 files or 3 million, and because it remains 
-         * unchanged, we're safe for everying we'll be doing.
+         * unchanged, we're safe for everything we'll be doing.
          * 
          * This is one of the features that makes comparing trees in git so
          * fast.
@@ -642,7 +642,7 @@ states = [
          * of a branch and by reading its parent and its parents parent and so
          * on we can very quickly reconstruct the history of the branch.
          * 
-         * Reconstuction of a branch is so fast and easy, that git doesn't even
+         * Reconstruction of a branch is so fast and easy, that git doesn't even
          * need to store explicit branch information. The one 40 character hash
          * reference in the branch file is all it takes.
          * 
@@ -674,7 +674,7 @@ states = [
          * so let's move over to one of Darrial's team mates' computers for a 
          * moment.
          * 
-         * If you're playing at home, you'll be playing Kaylee for the timebeing
+         * If you're playing at home, you'll be playing Kaylee for the time-being
          */        
         {"pause":""},
         {"object":".h-q","time":0,"toggle":"hidden"},
@@ -778,7 +778,7 @@ states = [
         {"object":".s-4","time":100,"toggle":"position2-1"},
 
         /*
-         * The repo will also send referenes like branches and tags. Branches
+         * The repo will also send references like branches and tags. Branches
          * will be specified as belonging to the original repo, by default
          * origin.
          */
@@ -1098,10 +1098,10 @@ states = [
         {"object":".line1-4-to-1-5","time":0,"toggle":"hidden"},
 
         /*
-         * Before she merges, she wants to make sure she has the lastest copy
+         * Before she merges, she wants to make sure she has the latest copy
          * of the master branch, so she fetches from Darrial's repo again.
          * 
-         * All the new objects that darrial added are now added to her repo and
+         * All the new objects that Darrial added are now added to her repo and
          * her remote reference to master is updated. At this point you can add 
          * those cards we set aside to your deck.
          */
@@ -1124,7 +1124,7 @@ states = [
          * From her feature branch, she's going to merge in the origin version
          * of the master branch.
          * 
-         * Becuase the six of diamonds is not a direct ancestor of the ace of 
+         * Because the six of diamonds is not a direct ancestor of the ace of 
          * clubs, this is going to use the other common strategy, the 
          * three-way merge.
          * 
@@ -1917,7 +1917,7 @@ states = [
     
         /*
          * Finally the tree of the jack of hearts commit, which is the jack of 
-         * spades tree. The entire filesystem is shown here:
+         * spades tree. The entire file-system is shown here:
          */
         {"pause":""},
 
