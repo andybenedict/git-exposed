@@ -3,6 +3,10 @@ index = -1;
 lock = false;
 timer = true;
 
+toggletimer = function(){
+    timer = timer ? false : true;
+}
+
 fontplus = function(){
     $("body").css('font-size', parseInt($("body").css('font-size')) + 1 + "px");
 }
@@ -93,6 +97,10 @@ $(document).ready(function(){
                         break;
 
                         case 40: // down
+                        break;
+
+                        case 88: // timer
+                        toggletimer();
                         break;
 
                         case 61: // plus
