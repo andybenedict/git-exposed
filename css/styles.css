@@ -123,6 +123,11 @@ slide content {
         max-width: 95%;
 }
 
+slide p {
+        transition: all .5s ease-in-out;
+        text-align: left;
+}
+
 slide ul {
         transition: all .5s ease-in-out;
         text-align: left;
