@@ -128,6 +128,10 @@ slide p {
         text-align: left;
 }
 
+slide img {
+        transition: all .5s ease-in-out;
+}
+
 slide ul {
         transition: all .5s ease-in-out;
         text-align: left;
