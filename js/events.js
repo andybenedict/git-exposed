@@ -1,42 +1,44 @@
 states = [
     
         /*
-         * I know a lot of people who use git, but few of them have taken the 
-         * time to really understand it. They make assumptions about how it 
+         * I know a lot of people who use git, but few who have taken the time 
+         * to really understand it. Instead, they make assumptions about how it 
          * works, and when it doesn't behave in the way those assumptions 
-         * suggest, they turn to Google in confusion only to read explanations 
-         * and watch videos written by other people who have made incorrect 
-         * assumptions and provide misleading analogies of how it works. 
+         * suggest, they turn to Google in confusion. Inevitably gravitating to
+         * explanations written by other people who have made the same incorrect 
+         * assumptions and who provide misleading analogies of how it works. 
+         * Ending up with an picture even less clear than when they started.
          * 
          * Eventually the whole thing grows to seem like magic and in the end
-         * they just sit at their desk, type the incantations they found on 
-         * Stack Overflow, roll a D20, and hit enter, then pray that the git
-         * gods will grant their request and not condemn them to purgatory for
-         * their lack of faith.
+         * they just sit at their desk, type the incomprehensible incantations 
+         * they found on Stack Overflow, roll a D20, and hit enter. Then they 
+         * pray that the git gods will grant their request and not condemn them 
+         * to purgatory for their lack of faith.
          * 
-         * Arthur C. Clarke once said that "any sufficiently advanced technology
-         * is indistinguishable from magic." I assure you, it's not magic, and if
-         * you stick with me and play along, by the time we're done git will
-         * seem a lot less mysterious.
-         * 
-         * Before we get started, let's take a moment to get you prepared:
+         * Arthur C. Clarke, the author of "2001: A Space Odyssey, once said 
+         * that "any sufficiently advanced technology is indistinguishable from 
+         * magic." I assure you, it's not magic, and over the next three videos
+         * we're going to clear away the smoke and mirrors, peel back the
+         * misdirection on the internet and expose exactly how the trick works.
          * 
          * This is an interactive presentation, and in order to get the most
          * out of it, I highly recommend you participate at home.
          * 
+         * Before we get started, let's take a moment to get you prepared:
+         * 
          * To completely play along, you'll need a few props:
-         * 54 playing cards
-         *     *  make your own deck with a blank deck of cards, or even a 
-         *        pack of index cards will do the job
-         *     *  you can download a PDF of the cards used in the
-         *        presentation, print and cut them out
-         *     *  or you can purchase a pre-printed deck of this presentation, 
-         *        see the link in the description
-         * 1-2 Markers
-         * PostIt notes
+         * 1.  54 playing cards
+         *       *  You can make your own deck as we go with a blank deck of 
+         *          playing cards, or even a pack of index cards will do the job
+         *       *  You can download a PDF of the cards used in the
+         *          presentation, print and cut them out
+         *       *  or you can follow the link below to learn more about getting
+         *          pre-printed decks
+         * 2.  1-2 Markers
+         * 3.  PostIt notes
          * 
          * Go ahead and hit pause and get what you need, I'll be here when you
-         * get back. When you get back keep your mouse on the pause button. 
+         * get back. During the presentation keep your mouse on the pause button. 
          * Trying to guess how much time is needed as you play at home would 
          * only result in most users either having dead space or having to pause 
          * the video anyway. So if you need to pause, need to rewind, or just 
@@ -101,10 +103,11 @@ states = [
         /*
          * Slide 2.2
          * 
-         * The first generation of modern VCS was the Concurrent Versioning 
-         * System or CVS. It was server based, which made it a tool that could
-         * be used by teams, but major VCS features like branching were very 
-         * difficult to do and as a result, usually were ignored all together.
+         * The first generation of modern version control was the Concurrent 
+         * Versioning System or CVS. It was server based, which made it a tool 
+         * that could be used by teams, but major features like branching were 
+         * very difficult to do and as a result, usually were ignored all 
+         * together.
          * 
          */
         {"object":"#slide2 .show3","time":0,"toggle":"hidden"},
@@ -118,9 +121,9 @@ states = [
          * were centralized on a server. Without an active network connection
          * it was impossible to commit.
          * 
-         * While easier, branching was still expensive and somewhat difficult
-         * to manage. Again, most teams just didn't want to deal with it and
-         * developed on a single branch.
+         * While easier, branching was still expensive, somewhat difficult to 
+         * manage, and problematic to merge. Again, most teams just didn't want 
+         * to deal with it and developed on a single branch.
          * 
          */
         {"object":"#slide2 .show4","time":0,"toggle":"hidden"},
@@ -128,9 +131,9 @@ states = [
         /*
          * Slide 2.4
          * 
-         * The current generation of VCS went back to the drawing board and 
-         * attempted to build a more modern system that would work for the new
-         * realities of development.
+         * The current generation of version control went back to the drawing 
+         * board and attempted to build a more modern system that would work for 
+         * the new realities of development.
          * 
          * Git and Mercurial are the two open source system in this generation.
          * While they function very differently in their specifics, they are
@@ -201,7 +204,7 @@ states = [
         /*
          * Slide 4.3
          * 
-         * It's also very difficult to actually graph its tree in a way that
+         * It's also very difficult to diagram a git repo in a way that
          * isn't misleading.
          */
         {"object":"#slide4 .show3","time":0,"toggle":"hidden"},
@@ -229,19 +232,11 @@ states = [
          * 
          * A lot of that misinformation and difficulty comes from trying to 
          * compare git to systems you already know. A lot of the commands are
-         * similar to older systems, and so many people incorrectly apply their
+         * similar to older systems, and many people incorrectly apply their
          * understanding of CVS or Subversion to git, which will eventually
          * cause them headaches.
          */
         {"object":"#slide4 .show6","time":0,"toggle":"hidden"},
-        {"pause":""},
-        /*
-         * Slide 4.7
-         * 
-         * Git has a lot of things commonly referred to as trees, including
-         * both the history and the file system
-         */
-        {"object":"#slide4 .show7","time":0,"toggle":"hidden"},
         {"pause":""},
         /*
          * Slide 4.8
@@ -336,21 +331,28 @@ states = [
          * Slide 5.8
          * 
          * Imagine we were to write each hash value on a standard poker size 
-         * playing card and make them into a deck. It's hard to express how big
-         * it is, but we'll try. From where you are standing, pick a direction.
-         * Go 25 million kilometers in that direction. Draw a big circle around 
-         * your starting point and fill that circle with cards all the way to
-         * the edge. Then start stacking the cards up, until they reach from one
-         * end of the observable universe to the other. About 93 billion light
-         * years. A light-year is about 9.5 billion kilometers.
+         * playing card and make them into a deck.
+         * 
+         */ 
+        {"object":"#slide5 .show8","time":0,"toggle":"hidden"},
+        {"pause":""},
+        /* 
+         * 
+         * It's hard to express how big it is, but we'll try. Our galaxy is 
+         * 100,000 light years across and a little over 1000 light years thick. 
+         * A light year is a little under 6 billion miles or 9.5 billion 
+         * kilometers. 
+         */ 
+        {"object":"#slide5 .show9","time":0,"toggle":"hidden"},
+        {"pause":""},
+        /* 
+         * Our imaginary deck would cover the galactic disc and be 
+         * stacked over 4000 light years high. 
          * 
          * This deck of cards would require the matter of over 1 million milky-
          * way sized galaxies to manufacture. And it would promptly collapse 
          * into a black hole that would wipe out all life.
-         */
-        {"object":"#slide5 .show8","time":0,"toggle":"hidden"},
-        {"pause":""},
-        /*
+         * 
          * Slide 5.9
          * 
          * For simplicity, and safety, we've compressed the hash space for this
@@ -359,9 +361,9 @@ states = [
          * So grab your deck and your markers, we're going to build a git repo 
          * that exists in the real world, made out of familiar objects that you 
          * can hold in your hands and manipulate on the table in front of you
-         * instead of some abstract virtual space.
+         * instead of in some abstract virtual space.
          */
-        {"object":"#slide5 .show9","time":0,"toggle":"hidden"},
+        {"object":"#slide5 .show10","time":0,"toggle":"hidden"},
         {"pause":""},
         {"object":"#slide5","time":0,"toggle":"hidden"},
         {"object":"slide.background","time":0,"toggle":"hidden"},		
@@ -373,8 +375,7 @@ states = [
          * 
          * The first thing we'll need is a new repo, so we'll initialize it. 
          * A lot of stuff is going on here, but essentially we're setting up the
-         * database for the project and creating a few folders for storing 
-         * branches and tags.
+         * database for the project.
          */
         {"object":".deck","time":0,"toggle":"hidden"},
         {"pause":""},
@@ -451,12 +452,12 @@ states = [
         {"object":".s-9","time":0,"toggle":"nopip"},
         {"pause":""},
         /* 
-         * We'll take this new text file, hash it based on its content, and 
-         * store it in the database as well
+         * We'll create a new text file with this information, hash it based on 
+         * its content, and store it in the database as well
          */
         {"object":".s-9","time":0,"toggle":"front center position2-4"},
         {"pause":""},
-        /* 
+          /* 
          * Create settings
          * 
          * Moving up the line, we'll build the next level of the tree. It 
@@ -474,15 +475,14 @@ states = [
         /* 
          * And drop it into the index
          * 
-         * I'd like to point a couple of things now, notice that each object in
+         * I'd like to point out a couple of things now, notice that each object in
          * the tree is hashed based on its content. As previously stated, a
          * sha1 hash will change if a single bit is altered anywhere in the
          * file.
          * 
          * The practical upshot of this is that if any bit in any of the files 
          * change, or if a file is renamed, those changes will cascade up because
-         * each level contains a reference to the next level down in the text
-         * that is in turn hashed.
+         * each level contains a reference in its text to the next level down.
          */
         {"object":".h-6","time":0,"toggle":"front center position2-3"},
         {"pause":""},
@@ -515,8 +515,8 @@ states = [
          */
         {"object":"tree","time":0,"toggle":"hidden"},
         {"object":".c-8","time":200,"toggle":"offscreen front center"},
-        {"object":".c-8","time":0,"toggle":"nopip"},
-        {"object":".c-8","time":0,"toggle":"front center position1-2"},
+        {"object":".c-8","time":500,"toggle":"nopip"},
+        {"object":".c-8","time":500,"toggle":"front center position1-2"},
         {"pause":""},
         /* 
          * Make the commit
@@ -562,9 +562,10 @@ states = [
         {"object":".master .pip","time":200,"toggle":"hidden"},
         {"pause":""},
         /*
-         * A branch is just a file in the branches folder of the repo which
-         * contains only the 40 character hash of the commit at the HEAD of 
-         * the branch.
+         * A branch is just a special file in the database which contains only 
+         * the 40 character hash of the commit at the HEAD of the branch.
+         * 
+         * Use a post it note to mark the head of the branch on a branch card.
          */
         {"object":".master","time":0,"toggle":"front center position4-5"},
         {"pause":""},
@@ -671,7 +672,7 @@ states = [
         /*
          * So far, it's just one person working on a single instance of the 
          * repo, but git is a distributed system that really shines for teams, 
-         * so let's move over to one of Darrial's team mates' computers for a 
+         * so let's move over to one of Derrial's team mates' computers for a 
          * moment.
          * 
          * If you're playing at home, you'll be playing Kaylee for the time-being
@@ -688,7 +689,7 @@ states = [
          * 
          * At the moment, you don't have anything in your repo, so you'll need
          * to get a copy of the repo so you can start work. To do this you'll 
-         * clone the repo from another member of the team. In this case, Darrial
+         * clone the repo from another member of the team. In this case, Derrial
          */
         
         {"pause":""},
@@ -800,7 +801,7 @@ states = [
         
         /*
          * Kaylee is free to start working, but for the moment, let's move back
-         * to Darrial's repo and do a little more work.
+         * to Derrial's repo and do a little more work.
          */
         {"pause":""},
         {"object":"body","time":0,"toggle":"klee"},
@@ -833,7 +834,7 @@ states = [
         {"object":".feature .pip","time":200,"toggle":"hidden"},
 
         /*
-         * Darrial adds a method to the baz class
+         * Derrial adds a method to the baz class
          */
         {"pause":""},        
         {"object":".s-k","time":0,"toggle":"offscreen front center"},
@@ -856,7 +857,7 @@ states = [
          * instead of master.
          * 
          * Set these cards aside, we'll need them later, but don't add them to 
-         * your deck just yet because Kaylee hasn't fetched from Darrial.
+         * your deck just yet because Kaylee hasn't fetched from Derrial.
          */
         {"pause":""},        
         {"object":".feature .pip","time":0,"toggle":"hidden"},
@@ -942,7 +943,7 @@ states = [
         /*
          * Merge branch into master (fast forward)
          * 
-         * Once the changes to baz on feature are tested, Darrial is ready to 
+         * Once the changes to baz on feature are tested, Derrial is ready to 
          * merge it into the master branch.
          * 
          * So let's check out the master branch and merge the feature branch
@@ -962,7 +963,7 @@ states = [
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
         /*
-         * While Darrial has been making his changes, Kaylee is also working
+         * While Derrial has been making his changes, Kaylee is also working
          * over in her repo.
          */
         {"pause":""},
@@ -989,6 +990,8 @@ states = [
          */
         {"pause":""},        
         {"object":".feature","time":300,"toggle":"hidden position4-4 position4-3"},
+		
+        {"pause":""},        
         {"object":".s-10","time":300,"toggle":"offscreen front center"},
 
         {"object":".s-10","time":300,"toggle":"nopip"},
@@ -1099,9 +1102,9 @@ states = [
 
         /*
          * Before she merges, she wants to make sure she has the latest copy
-         * of the master branch, so she fetches from Darrial's repo again.
+         * of the master branch, so she fetches from Derrial's repo again.
          * 
-         * All the new objects that Darrial added are now added to her repo and
+         * All the new objects that Derrial added are now added to her repo and
          * her remote reference to master is updated. At this point you can add 
          * those cards we set aside to your deck.
          */
@@ -1117,7 +1120,7 @@ states = [
         /*
          * Initiate a 3-way merge
          * 
-         * Now knowing that Darrial has made changes to the master branch, it's
+         * Now knowing that Derrial has made changes to the master branch, it's
          * a good idea for Kaylee to merge the master branch into her branch to
          * test before committing it to master.
          * 
@@ -1164,11 +1167,11 @@ states = [
          */
         {"pause":""},
         {"object":".ph1-2","time":0,"toggle":"unchanged"},    
-        {"object":".s-4","time":300,"toggle":"position1-2 position1-1"},
-        {"object":".ph2-4","time":500,"toggle":"unchanged"},    
-        {"object":".d-6","time":300,"toggle":"position2-4 position3-5"},
-        {"object":".ph1-5","time":500,"toggle":"unchanged"},    
-        {"object":".c-a","time":300,"toggle":"position1-5 position3-5"},
+        {"object":".s-4","time":0,"toggle":"position1-2 position1-1"},
+        {"object":".ph2-4","time":0,"toggle":"unchanged"},    
+        {"object":".d-6","time":0,"toggle":"position2-4 position3-5"},
+        {"object":".ph1-5","time":0,"toggle":"unchanged"},    
+        {"object":".c-a","time":0,"toggle":"position1-5 position3-5"},
 
         /*
          * We start with the tree at the merge base.
@@ -1313,7 +1316,7 @@ states = [
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
         /*
-         * Now that our local copy of master is updated with all of Darrial's 
+         * Now that our local copy of master is updated with all of Derrial's 
          * changes from the origin's master branch, we can safely push our 
          * updates to the server.
          */
@@ -1323,7 +1326,7 @@ states = [
         {"object":".origin .pip","time":200,"toggle":"hidden"},
 
         /*
-         * Back in Darrial's repo, master has been updated, and another member 
+         * Back in Derrial's repo, master has been updated, and another member 
          * of the team is about to start working on the project.
          */
         {"pause":""},
@@ -1351,7 +1354,7 @@ states = [
         {"object":".line2-3-to-2-5","time":0,"toggle":"hidden"},
 
         /*
-         * Hoban has picked up a task on the project and has cloned Darrial's
+         * Hoban has picked up a task on the project and has cloned Derrial's
          * repo.
          * 
          * If you're playing at home, assume the role of Hoban
@@ -1441,7 +1444,7 @@ states = [
 
         /*
          * While he's getting his feature working, another member of the team
-         * clones the repo from Darrial and makes a couple of small changes.
+         * clones the repo from Derrial and makes a couple of small changes.
          */
         {"pause":""},
         {"object":"body","time":0,"toggle":"zoe"},
@@ -1527,7 +1530,7 @@ states = [
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
         /*
-         * And pushes her changes back to Darrial
+         * And pushes her changes back to Derrial
          */
         {"pause":""},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
@@ -1685,7 +1688,8 @@ states = [
         
         /*
          * Git will automatically calculate the patches and look to see if they
-         * overlap. If they don't, it can handle the merge automatically.
+         * overlap. If they don't overlap it can handle the merge automatically.
+         * If they do overlap, the merge will require human intervention.
          * Conflicts that require human intervention are relatively rare, but
          * the outcome is the same.
          */
@@ -1694,15 +1698,15 @@ states = [
         {"object":".s-5","time":0,"toggle":"position3-4 position3-3"},
 
         /*
-         * Either automatically or with manual intervention from the user, a
-         * new file will be created that represents the changes from both
-         * branches and it will be added to the index.
+         * Whether automatically or with manual intervention from the user, a
+         * new file is created that represents the changes from both branches 
+         * and it is added to the index.
          */
         {"pause":""},
         {"object":".c-q","time":0,"toggle":"offscreen position3-4"},
 
         /*
-         * This file will be hashed as a blob and the commit will continue
+         * This file will be hashed as a blob and the commit will complete
          * normally
          */
         {"pause":""},
@@ -1828,7 +1832,7 @@ states = [
         {"object":".master .pip","time":200,"toggle":"hidden"},
 
         /*
-         * And finally, push the master branch back up to Darrial.
+         * And finally, push the master branch back up to Derrial.
          */
         {"pause":""},
         {"object":".origin .pip","time":0,"toggle":"hidden"},
